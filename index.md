@@ -10,16 +10,15 @@ embedding models.
 <br />
 {% if entry contains "arxiv" %}
 <a href="https://arxiv.org/abs/{{ entry.arxiv }}">
-<img style="clear: both; display: table" src="https://img.shields.io/badge/arXiv-{{ entry.arxiv }}
--b31b1b" />
+<img src="https://img.shields.io/badge/arXiv-{{ entry.arxiv }} -b31b1b" />
 </a>
 
 {% endif %}
 {% if entry contains "github" %}
 <a href="https://github.com/{{ entry.github }}">
-<img style="clear: both; display: table" src="https://img.shields.io/badge/GitHub-{{ entry.github }}-black?logo=github" />
+<img src="https://img.shields.io/badge/GitHub-{{ entry.github }}-black?logo=github" />
 </a>
 {% endif %}
-<img style="clear: both; display: table" src="https://img.shields.io/badge/Models-{{ entry.models.size }}-blue" />
-<img style="clear: both; display: table" src="https://img.shields.io/badge/Datasets-{{ entry.datasets.size }}-blueviolet" />
+<img src="https://img.shields.io/badge/Models-{{ entry.models.size }}-blue" />
+<img src="https://img.shields.io/badge/Datasets-{{ entry.datasets.size }}-blueviolet" />
 {% endfor %}
