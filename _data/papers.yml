@@ -3,13 +3,70 @@
   year: 2020
   venue: International Conference on Learning Representations
   link: https://openreview.net/forum?id=BkxSmlBFvr
+  models:
+    - RESCAL
+    - TransE
+    - DistMult
+    - ComplEx
+    - ConvE
+  datasets:
+    - FB15k-237
+    - WN18
 - arxiv: 2002.00819
   title: "Knowledge Graph Embedding for Link Prediction: A Comparative Analysis"
   author: Rossi
   year: 2020
   link: https://arxiv.org/abs/2002.00819
+  models:
+    - AnyBURL
+    - DistMult
+    - ComplEx
+    - ANALOGY
+    - SimplE
+    - HolE
+    - TuckER
+    - TransE
+    - STransE
+    - TorusE
+    - RotatE
+    - ConvE
+    - ConvKB
+    - ConvR
+    - CaspE
+    - RSN
+  datasets:
+    - FB15k
+    - FB15k-237
+    - WN18
+    - WN18RR
+    - YAGO3-10
 - arxiv: 2006.13365
   title: "Bringing Light Into the Dark: A Large-scale Evaluation of Knowledge Graph Embedding Models Under a Unified Framework"
   author: Ali
   year: 2020
   link: https://arxiv.org/abs/2006.13365
+  models:
+    - ComplEx
+    - ConvE
+    - ConvKB
+    - DistMult
+    - ER-MLP
+    - HolE
+    - KG2E
+    - NTN
+    - ProjE
+    - RESCAL
+    - RotatE
+    - Structured Embedding
+    - SimplE
+    - TransE
+    - TransH
+    - TransR
+    - Unstructured Model
+    - TuckER
+  datasets:
+    - FB15k
+    - FB15k-237
+    - WN18
+    - WN18RR
+    - YAGO3-10
