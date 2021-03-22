@@ -8,11 +8,10 @@ embedding models.
 <strong><a href="{{ entry.link }}">{{ entry.title }}</a></strong>
 <br />{{ entry.author }} *et al.*, {{ entry.year }} {% if entry contains "arxiv" %}
 <a href="https://arxiv.org/abs/{{ entry.arxiv }}">
-<img style="display:inline" src="https://img.shields.io/badge/arXiv-{{ entry.arxiv }}-b31b1b" />
+<br />
+<img style="display: inline" src="https://img.shields.io/badge/arXiv-{{ entry.arxiv }}-b31b1b" />
 </a>
 {% endif %}
-<img style="display:inline" src="https://img.shields.io/badge/Models-{{ entry.models.size }}
--blue" />
-<img style="display:inline" src="https://img.shields.io/badge/Datasets-{{ entry.datasets.size }}
--blueviolet" />
+<img style="display: inline" src="https://img.shields.io/badge/Models-{{ entry.models.size }}-blue" />
+<img style="display: inline" src="https://img.shields.io/badge/Datasets-{{ entry.datasets.size }}-blueviolet" />
 {% endfor %}
