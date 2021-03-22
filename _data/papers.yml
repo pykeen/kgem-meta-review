@@ -63,6 +63,7 @@
     - Structured Embedding
     - SimplE
     - TransE
+    - TransD
     - TransH
     - TransR
     - Unstructured Model
