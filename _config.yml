@@ -1,0 +1,8 @@
+title: KGEM Link Predition Meta-review
+description: >
+  A list of benchmarking studies for link prediction with KGEMs
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
