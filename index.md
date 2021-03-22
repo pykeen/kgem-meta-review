@@ -1,8 +1,9 @@
 ---
 layout: home
 ---
-This page contains a list of benchmarking papers on the link prediction task using knowledge graph
-embedding models.
+This page contains a list of knowledge graph embedding model (KGEM) link prediction
+benchmarking studies. You can contribute to this list
+[here](https://github.com/pykeen/kgembmr/edit/main/_data/papers.yml).
 
 {% for entry in site.data.papers %}
 <strong><a href="{{ entry.link }}">{{ entry.title }}</a></strong>
