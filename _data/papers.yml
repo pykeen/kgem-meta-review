@@ -3,6 +3,7 @@
   year: 2020
   venue: International Conference on Learning Representations
   link: https://openreview.net/forum?id=BkxSmlBFvr
+  github: uma-pi1/kge
   models:
     - RESCAL
     - TransE
@@ -17,6 +18,7 @@
   author: Rossi
   year: 2020
   link: https://arxiv.org/abs/2002.00819
+  github: merialdo/research.lpca
   models:
     - AnyBURL
     - DistMult
@@ -45,6 +47,7 @@
   author: Ali
   year: 2020
   link: https://arxiv.org/abs/2006.13365
+  github: pykeen/benchmarking
   models:
     - ComplEx
     - ConvE
