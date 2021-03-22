@@ -6,10 +6,10 @@ using knowledge graph embedding models.
 
 {% for entry in site.data.papers %}
 <strong><a href="{{ entry.link }}">{{ entry.title }}</a></strong>
-<br />{{ entry.authors }} *et al.*, {{ entry.year }}
+<br />{{ entry.author }} *et al.*, {{ entry.year }}
 {% if entry contains "arxiv" %}
 <a href="https://arxiv.org/abs/{{ entry.arxiv }}">
-<img src="https://img.shields.io/badge/arXiv-{{ entry.arxiv }}-b31b1b" />
+<img style="display:inline" src="https://img.shields.io/badge/arXiv-{{ entry.arxiv }}-b31b1b" />
 </a>
 {% endif %}
 {% endfor %}
