@@ -78,3 +78,18 @@
   author: Wang
   year: 2021
   link: https://www.mdpi.com/2073-8994/13/3/485/pdf
+  models:
+    - Bilinear + TR
+    - ComplEx
+    - ConvE
+    - DistMult
+    - HAKE
+    - HypER
+    - LiteralE
+    - RotatE
+    - RW-LMLM
+    - SACN
+    - SimplE
+  datasets:
+    - FB15k
+    - FB15k-237
