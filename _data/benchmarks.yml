@@ -1,3 +1,22 @@
+- title: "A Survey on Knowledge Graph Embeddings for Link Prediction"
+  author: Wang
+  year: 2021
+  link: https://www.mdpi.com/2073-8994/13/3/485/pdf
+  models:
+    - Bilinear + TR
+    - ComplEx
+    - ConvE
+    - DistMult
+    - HAKE
+    - HypER
+    - LiteralE
+    - RotatE
+    - RW-LMLM
+    - SACN
+    - SimplE
+  datasets:
+    - FB15k
+    - FB15k-237
 - title: You CAN Teach an Old Dog New Tricks! On Training Knowledge Graph Embeddings
   author: Ruffinelli
   year: 2020
@@ -74,22 +93,4 @@
     - WN18
     - WN18RR
     - YAGO3-10
-- title: "A Survey on Knowledge Graph Embeddings for Link Prediction"
-  author: Wang
-  year: 2021
-  link: https://www.mdpi.com/2073-8994/13/3/485/pdf
-  models:
-    - Bilinear + TR
-    - ComplEx
-    - ConvE
-    - DistMult
-    - HAKE
-    - HypER
-    - LiteralE
-    - RotatE
-    - RW-LMLM
-    - SACN
-    - SimplE
-  datasets:
-    - FB15k
-    - FB15k-237
+
