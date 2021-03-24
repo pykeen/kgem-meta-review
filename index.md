@@ -3,8 +3,8 @@ layout: home
 ---
 This page contains a list of knowledge graph embedding model (KGEM) surveys and
 benchmarking studies. You can contribute to this list by
-[adding a benchmark](https://github.com/pykeen/kgembmr/edit/main/_data/benchmarks.yml) or
-[adding a survey](https://github.com/pykeen/kgembmr/edit/main/_data/surveys.yml) through
+[adding a benchmark](https://github.com/pykeen/kgem-meta-review/edit/main/_data/benchmarks.yml) or
+[adding a survey](https://github.com/pykeen/kgem-meta-review/edit/main/_data/surveys.yml) through
 the GitHub editor or by forking the repository and sending a pull request.
 
 ## Benchmark Studies
