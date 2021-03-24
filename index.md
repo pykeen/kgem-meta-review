@@ -24,4 +24,5 @@ the GitHub editor or by forking the repository and sending a pull request.
 {% for entry in site.data.surveys %}
 <strong><a href="{{ entry.link }}">{{ entry.title }}</a></strong>
 <br />{{ entry.author }} *et al.*, {{ entry.year }}
+{% if entry contains "arxiv" %}<br />[![arXiv](https://img.shields.io/badge/arXiv-{{ entry.arxiv }}-b31b1b)](https://arxiv.org/abs/{{ entry.arxiv }}){% endif %}
 {% endfor %}
