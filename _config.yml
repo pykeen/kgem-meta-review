@@ -1,6 +1,6 @@
-title: Awesome KGEM Surveys and Benchmarks
+title: KGEM Meta-Review of Surveys and Benchmarks
 description: >
-  An awesome list of KGEM surveys and benchmarking studies for link prediction.
+  A meta-review of KGEM surveys and benchmarking studies for link prediction.
 
 plugins:
   - jekyll-feed
