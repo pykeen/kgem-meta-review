@@ -1,0 +1,134 @@
+[
+  {
+    "arxiv_id": "1503.00759",
+    "author": "Nickel",
+    "counts": {
+      "TransE": 1
+    },
+    "link": "https://arxiv.org/pdf/1503.00759.pdf",
+    "title": "A Review of Relational Machine Learning for Knowledge Graphs",
+    "year": 2015
+  },
+  {
+    "arxiv_id": "1705.02801",
+    "counts": {}
+  },
+  {
+    "arxiv_id": "1709.07604",
+    "counts": {
+      "ComplEx": 1,
+      "TransE": 1
+    }
+  },
+  {
+    "arxiv_id": "2002.00388",
+    "author": "Ji",
+    "counts": {
+      "ComplEx": 2,
+      "DistMult": 2,
+      "TransE": 2,
+      "TransG": 2,
+      "TuckER": 2
+    },
+    "link": "https://arxiv.org/pdf/2002.00388",
+    "title": "A Survey on Knowledge Graphs: Representation, Acquisition and Applications",
+    "year": 2020
+  },
+  {
+    "arxiv_id": "2002.00819",
+    "author": "Rossi",
+    "counts": {
+      "ComplEx": 1,
+      "DistMult": 1,
+      "TransE": 1,
+      "TuckER": 1
+    },
+    "datasets": [
+      "FB15k",
+      "FB15k-237",
+      "WN18",
+      "WN18RR",
+      "YAGO3-10"
+    ],
+    "github": "merialdo/research.lpca",
+    "link": "https://arxiv.org/abs/2002.00819",
+    "models": [
+      "AnyBURL",
+      "DistMult",
+      "ComplEx",
+      "ANALOGY",
+      "SimplE",
+      "HolE",
+      "TuckER",
+      "TransE",
+      "STransE",
+      "TorusE",
+      "RotatE",
+      "ConvE",
+      "ConvKB",
+      "ConvR",
+      "CaspE",
+      "RSN"
+    ],
+    "title": "Knowledge Graph Embedding for Link Prediction: A Comparative Analysis",
+    "year": 2020
+  },
+  {
+    "arxiv_id": "2006.13365",
+    "author": "Ali",
+    "counts": {
+      "ComplEx": 11,
+      "DistMult": 11,
+      "TransE": 12,
+      "TuckER": 10
+    },
+    "datasets": [
+      "FB15k",
+      "FB15k-237",
+      "WN18",
+      "WN18RR",
+      "YAGO3-10"
+    ],
+    "github": "pykeen/benchmarking",
+    "link": "https://arxiv.org/abs/2006.13365",
+    "models": [
+      "ComplEx",
+      "ConvE",
+      "ConvKB",
+      "DistMult",
+      "ER-MLP",
+      "HolE",
+      "KG2E",
+      "NTN",
+      "ProjE",
+      "RESCAL",
+      "RotatE",
+      "Structured Embedding",
+      "SimplE",
+      "TransE",
+      "TransD",
+      "TransH",
+      "TransR",
+      "Unstructured Model",
+      "TuckER"
+    ],
+    "title": "Bringing Light Into the Dark: A Large-scale Evaluation of Knowledge Graph Embedding Models Under a Unified Framework",
+    "year": 2020
+  },
+  {
+    "arxiv_id": "2012.08019",
+    "counts": {}
+  },
+  {
+    "arxiv_id": "2012.09049",
+    "counts": {}
+  },
+  {
+    "arxiv_id": "2101.06569",
+    "counts": {
+      "ComplEx": 1,
+      "DistMult": 1,
+      "TransE": 2
+    }
+  }
+]
