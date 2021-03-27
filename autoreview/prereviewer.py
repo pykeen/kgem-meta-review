@@ -54,6 +54,11 @@ def main(include_pre: bool = False):
             continue
         if len(counter) < 3:  # If at least 2 models aren't mentioned, skip it
             continue
+
+        # TODO make this check optional
+        if not any(dataset in counter for dataset in _get_datasets()):  # if no datasets are mentioned, skip
+            continue
+
         # tqdm.write(tabulate(counter.most_common(), headers=['token', f'{arxiv_id}_count']))
         results.append({
             'arxiv': arxiv_id,
@@ -70,6 +75,19 @@ def main(include_pre: bool = False):
 
 @lru_cache(maxsize=1)
 def get_vocabulary() -> Mapping[str, List[str]]:
+    return {**_get_models(), **_get_datasets()}
+
+
+def _get_models():
+    return _get_vocabulary()['models']
+
+
+def _get_datasets():
+    return _get_vocabulary()['datasets']
+
+
+@lru_cache(maxsize=1)
+def _get_vocabulary() -> Mapping[str, List[str]]:
     with open(VOCABULARY_PATH) as file:
         return json.load(file)
 

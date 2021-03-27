@@ -1,4 +1,12 @@
 hits:
+  - arxiv: "2009.07810"
+    type: benchmark
+    subtype: new dataset
+  - arxiv: "2005.07654"
+    type: benchmark
+  - arxiv: "1707.01475"
+    type: survey
+    summary: HolE and ComplEx are the same in some situations
   - arxiv: "1703.08098"
   - arxiv: "1909.03794"
   - arxiv: "1910.12507"
@@ -13,16 +21,35 @@ hits:
   - arxiv: "1901.03425"
   - arxiv: "1911.08776"
     type: benchmark
-    notes: new data set
+    subtype: new data set
   - arxiv: "2006.13774"
     type: benchmark
   - arxiv: "2102.13303"
     type: benchmark
     topic: gnn
+  - arxiv: "1903.11406"
+    type: benchmark
+    notes: also includes new model
 irrelevant:
+  - arxiv: "2003.05730"
+    reason: adversarial attack survey
+  - arxiv: "2101.08358"
+    reason: software reimplementation
+  - arxiv: "1908.11561"
+  - arxiv: "1908.08037"
+    reason: NRL methodology
+  - arxiv: "1908.06543"
+    reason: benchmark on NRL, not KGEM
+  - arxiv: "1908.06203"
+  - arxiv: "1908.01297"
+  - arxiv: "1907.01068"
+    reason: hyperparameter tuning in KGEMs
+  - arxiv: "1906.00120"
+  - arxiv: "1905.13649"
+  - arxiv: "1904.06491"
   - arxiv: "1709.05584"
     type: survey
-    reason: it's about representation learning, not KGEMs
+    reason: it's about NRL, not KGEMs
   - arxiv: "0705.1792"
   - arxiv: "0709.0380"
   - arxiv: "0709.4087"
@@ -31,8 +58,11 @@ irrelevant:
   - arxiv: math/9704221
   - arxiv: "1807.08484"
   - arxiv: "1906.02989"
+  - arxiv: "1804.05281"
   - arxiv: "1909.02073"
   - arxiv: "2008.12646"
+  - arxiv: "1903.04477"
+  - arxiv: "1802.06902"
   - arxiv: "1609.03145"
   - arxiv: "1606.08942"
   - arxiv: "1607.08692"
@@ -43,6 +73,40 @@ irrelevant:
     type: survey
     reason: it's about representation learning, not KGEMs
 novel:
+  - model: TNTComplEx
+    arxiv: "2004.04926"
+  - arxiv: "2001.00461"
+    notes: training/application development
+  - arxiv: "1911.04910"
+    notes: extension of RotatE
+  - arxiv: "1911.04053"
+    notes: presents DeCom, a methodology for improving performance with pre-existing models
+  - arxiv: "1911.00055"
+    model: DRUM
+  - arxiv: "1909.03821"
+    notes: Shows how operations on Lie algebras can unify different models
+  - arxiv: "1506.00999"
+    model: TATEC
+  - arxiv: "1702.06879"
+    model: ComplEx
+    notes: double paper
+  - arxiv: "1606.06357"
+    model: ComplEx
+  - arxiv: "1512.01370"
+    model: TransA
+  - arxiv: "1510.04935"
+    model: HolE
+  - arxiv: "1906.12330"
+    model: GraphStar
+  - arxiv: "1906.00137"
+    model:
+      - HypE
+      - HSimplE
+  - arxiv: "1905.13129"
+    model: STAR-GCN
+  - arxiv: "1905.11691"
+    model: Triple2vec
+  - arxiv: "1904.12211"
   - arxiv: "2103.03642"
     model: TACT
   - arxiv: "2008.03130"
