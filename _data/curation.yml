@@ -11,6 +11,9 @@ hits:
   - arxiv: "1708.06816"
     type: benchmark
   - arxiv: "1901.03425"
+  - arxiv: "1911.08776"
+    type: benchmark
+    notes: new data set
 irrelevant:
   - arxiv: "0705.1792"
   - arxiv: "0709.0380"
@@ -22,6 +25,7 @@ irrelevant:
   - arxiv: "1906.02989"
   - arxiv: "1909.02073"
   - arxiv: "2008.12646"
+  - arxiv: "1609.03145"
 novel:
   - arxiv: "2103.03642"
     model: TACT
@@ -39,10 +43,10 @@ novel:
     arxiv: "2010.00989"
   - arxiv: "2011.03798"
     model: PairRE
-  - model: OPTransE
-    arxiv: "1909.11864"
-  - model: TransEdge
-    arxiv: "2004.13579"
+  - arxiv: "1909.11864"
+    model: OPTransE
+  - arxiv: "2004.13579"
+    model: TransEdge
   - arxiv: "1902.10197"
     model: RotatE
   - arxiv: "2006.04986"
@@ -53,6 +57,10 @@ novel:
     model: FedE
   - arxiv: "2005.10956"
     model: NagE
+  - arxiv: "2005.00545"
+    model: AttH
+  - arxiv: "2008.07723"
+    model: NASE
 skip:
   - astro-ph/0001098
   - astro-ph/0212016

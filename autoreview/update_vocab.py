@@ -7,7 +7,7 @@ import os
 
 import yaml
 
-from constants import BENCHMARKS_PATH, SURVEY_PATH, VOCABULARY_PATH
+from constants import BENCHMARKS_PATH, SURVEY_PATH, VOCABULARY_PATH, load_curation
 
 
 def main():
@@ -23,6 +23,10 @@ def main():
         for entry in data:
             for model in entry.get('models', []):
                 vocabulary.setdefault(model, [])
+
+    for entry in load_curation()['novel']:
+        if model := entry.get('model'):
+            vocabulary.setdefault(model, [])
 
     with open(VOCABULARY_PATH, 'w') as file:
         json.dump(vocabulary, file, indent=2, sort_keys=True)

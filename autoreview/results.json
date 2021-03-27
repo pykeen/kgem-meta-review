@@ -21,27 +21,6 @@
     "title": "Orthogonal Relation Transforms with Graph Context Modeling for Knowledge Graph Embedding"
   },
   {
-    "arxiv": "2005.00545",
-    "counts": {
-      "AttH": 6,
-      "ComplEx": 4,
-      "ConvE": 2,
-      "ConvKB": 1,
-      "DistMult": 2,
-      "MuRE": 1,
-      "MuRP": 5,
-      "QuatE": 1,
-      "R-GCN": 1,
-      "RESCAL": 1,
-      "RotatE": 5,
-      "SE": 1,
-      "TuckER": 2
-    },
-    "published": "2020-05-01T18:00:02Z",
-    "summary": "Knowledge graph (KG) embeddings learn low-dimensional representations of entities and relations to predict missing facts. KGs often exhibit hierarchical and logical patterns which must be preserved in the embedding space. For hierarchical data, hyperbolic embedding methods have shown promise for high-fidelity and parsimonious representations. However, existing hyperbolic embedding methods do not account for the rich logical patterns in KGs. In this work, we introduce a class of hyperbolic KG embedding models that simultaneously capture hierarchical and logical patterns. Our approach combines hyperbolic reflections and rotations with attention to model complex relational patterns. Experimental results on standard KG benchmarks show that our method improves over previous Euclidean- and hyperbolic-based efforts by up to 6.1% in mean reciprocal rank (MRR) in low dimensions. Furthermore, we observe that different geometric transformations capture different types of relations while attention-based transformations generalize to multiple relations. In high dimensions, our approach yields new state-of-the-art MRRs of 49.6% on WN18RR and 57.7% on YAGO3-10.",
-    "title": "Low-Dimensional Hyperbolic Knowledge Graph Embeddings"
-  },
-  {
     "arxiv": "2011.08431",
     "counts": {
       "ComplEx": 1,
@@ -100,25 +79,6 @@
     "title": "Combination of Unified Embedding Model and Observed Features for Knowledge Graph Completion"
   },
   {
-    "arxiv": "1911.08776",
-    "counts": {
-      "ComplEx": 1,
-      "DistMult": 1,
-      "LiteralE": 1,
-      "NTN": 1,
-      "RESCAL": 1,
-      "RotatE": 1,
-      "SE": 1,
-      "SimplE": 1,
-      "TransE": 1,
-      "TransH": 1,
-      "TuckER": 1
-    },
-    "published": "2019-11-20T09:05:11Z",
-    "summary": "As an efficient model for knowledge organization, the knowledge graph has been widely adopted in several fields, e.g., biomedicine, sociology, and education. And there is a steady trend of learning embedding representations of knowledge graphs to facilitate knowledge graph construction and downstream tasks. In general, knowledge graph embedding techniques aim to learn vectorized representations which preserve the structural information of the graph. And conventional embedding learning models rely on structural relationships among entities and relations. However, in educational knowledge graphs, structural relationships are not the focus. Instead, rich literals of the graphs are more valuable. In this paper, we focus on this problem and propose a novel model for embedding learning of educational knowledge graphs. Our model considers both structural and literal information and jointly learns embedding representations. Three experimental graphs were constructed based on an educational knowledge graph which has been applied in real-world teaching. We conducted two experiments on the three graphs and other common benchmark graphs. The experimental results proved the effectiveness of our model and its superiority over other baselines when processing educational knowledge graphs.",
-    "title": "Joint Embedding Learning of Educational Knowledge Graphs"
-  },
-  {
     "arxiv": "2009.10847",
     "counts": {
       "ComplEx": 1,
@@ -173,24 +133,6 @@
     "published": "2020-07-22T02:20:25Z",
     "summary": "Knowledge graph embedding, which aims to learn the low-dimensional representations of entities and relationships, has attracted considerable research efforts recently. However, most knowledge graph embedding methods focus on the structural relationships in fixed triples while ignoring the temporal information. Currently, existing time-aware graph embedding methods only focus on the factual plausibility, while ignoring the temporal smoothness which models the interactions between a fact and its contexts, and thus can capture fine-granularity temporal relationships. This leads to the limited performance of embedding related applications. To solve this problem, this paper presents a Robustly Time-aware Graph Embedding (RTGE) method by incorporating temporal smoothness. Two major innovations of our paper are presented here. At first, RTGE integrates a measure of temporal smoothness in the learning process of the time-aware graph embedding. Via the proposed additional smoothing factor, RTGE can preserve both structural information and evolutionary patterns of a given graph. Secondly, RTGE provides a general task-oriented negative sampling strategy associated with temporally-aware information, which further improves the adaptive ability of the proposed algorithm and plays an essential role in obtaining superior performance in various tasks. Extensive experiments conducted on multiple benchmark tasks show that RTGE can increase performance in entity/relationship/temporal scoping prediction tasks.",
     "title": "Time-aware Graph Embedding: A temporal smoothness and task-oriented approach"
-  },
-  {
-    "arxiv": "2008.07723",
-    "counts": {
-      "ComplEx": 1,
-      "ConvE": 3,
-      "ConvKB": 3,
-      "DistMult": 3,
-      "RotatE": 2,
-      "SE": 4,
-      "SimplE": 3,
-      "TransE": 3,
-      "TransR": 2,
-      "TuckER": 1
-    },
-    "published": "2020-08-18T03:34:09Z",
-    "summary": "Link prediction is the task of predicting missing connections between entities in the knowledge graph (KG). While various forms of models are proposed for the link prediction task, most of them are designed based on a few known relation patterns in several well-known datasets. Due to the diversity and complexity nature of the real-world KGs, it is inherently difficult to design a model that fits all datasets well. To address this issue, previous work has tried to use Automated Machine Learning (AutoML) to search for the best model for a given dataset. However, their search space is limited only to bilinear model families. In this paper, we propose a novel Neural Architecture Search (NAS) framework for the link prediction task. First, the embeddings of the input triplet are refined by the Representation Search Module. Then, the prediction score is searched within the Score Function Search Module. This framework entails a more general search space, which enables us to take advantage of several mainstream model families, and thus it can potentially achieve better performance. We relax the search space to be continuous so that the architecture can be optimized efficiently using gradient-based search strategies. Experimental results on several benchmark datasets demonstrate the effectiveness of our method compared with several state-of-the-art approaches.",
-    "title": "NASE: Learning Knowledge Graph Embedding for Link Prediction via Neural Architecture Search"
   },
   {
     "arxiv": "2011.07751",
@@ -686,17 +628,6 @@
     "published": "2021-01-15T14:12:10Z",
     "summary": "Entity Resolution (ER) is a constitutional part for integrating different knowledge graphs in order to identify entities referring to the same real-world object. A promising approach is the use of graph embeddings for ER in order to determine the similarity of entities based on the similarity of their graph neighborhood. The similarity computations for such embeddings translates to calculating the distance between them in the embedding space which is comparatively simple. However, previous work has shown that the use of graph embeddings alone is not sufficient to achieve high ER quality. We therefore propose a more comprehensive ER approach for knowledge graphs called EAGER (Embedding-Assisted Knowledge Graph Entity Resolution) to flexibly utilize both the similarity of graph embeddings and attribute values within a supervised machine learning approach. We evaluate our approach on 23 benchmark datasets with differently sized and structured knowledge graphs and use hypothesis tests to ensure statistical significance of our results. Furthermore we compare our approach with state-of-the-art ER solutions, where our approach yields competitive results for table-oriented ER problems and shallow knowledge graphs but much better results for deeper knowledge graphs.",
     "title": "EAGER: Embedding-Assisted Entity Resolution for Knowledge Graphs"
-  },
-  {
-    "arxiv": "1609.03145",
-    "counts": {
-      "HolE": 1,
-      "RESCAL": 1,
-      "TransE": 1
-    },
-    "published": "2016-09-11T10:14:18Z",
-    "summary": "We provide a survey on relational models. Relational models describe complete networked {domains by taking into account global dependencies in the data}. Relational models can lead to more accurate predictions if compared to non-relational machine learning approaches. Relational models typically are based on probabilistic graphical models, e.g., Bayesian networks, Markov networks, or latent variable models. Relational models have applications in social networks analysis, the modeling of knowledge graphs, bioinformatics, recommendation systems, natural language processing, medical decision support, and linked data.",
-    "title": "Relational Models"
   },
   {
     "arxiv": "1807.05127",
