@@ -510,17 +510,6 @@
     "title": "Complex Embeddings for Simple Link Prediction"
   },
   {
-    "arxiv": "1606.08942",
-    "counts": {
-      "LINE": 1,
-      "NAM": 1,
-      "SE": 1
-    },
-    "published": "2016-06-29T03:14:34Z",
-    "summary": "Predicting risk profiles of individuals in networks (e.g.~susceptibility to a particular disease, or likelihood of smoking) is challenging for a variety of reasons. For one, `local' features (such as an individual's demographic information) may lack sufficient information to make informative predictions; this is especially problematic when predicting `risk,' as the relevant features may be precisely those that an individual is disinclined to reveal in a survey. Secondly, even if such features are available, they still may miss crucial information, as `risk' may be a function not just of an individual's features but also those of their friends and social communities. Here, we predict individual's risk profiles as a function of both their local features and those of their friends. Instead of modeling influence from the social network directly (which proved difficult as friendship links may be sparse and partially observed), we instead model influence by discovering social communities in the network that may be related to risky behavior. The result is a model that predicts risk as a function of local features, while making up for their deficiencies and accounting for social influence by uncovering community structure in the network. We test our model by predicting risky behavior among adolescents from the Add health data set, and hometowns among users in a Facebook ego net. Compared to prediction by features alone, our model demonstrates better predictive accuracy when measured as a whole, and in particular when measured as a function of network \"richness.\"",
-    "title": "Predicting risky behavior in social communities"
-  },
-  {
     "arxiv": "1607.07330",
     "counts": {
       "LINE": 1,
@@ -530,17 +519,6 @@
     "published": "2016-07-25T16:00:32Z",
     "summary": "The task of predicting future relationships in a social network, known as link prediction, has been studied extensively in the literature. Many link prediction methods have been proposed, ranging from common neighbors to probabilistic models. Recent work by Yang et al. has highlighted several challenges in evaluating link prediction accuracy. In dynamic networks where edges are both added and removed over time, the link prediction problem is more complex and involves predicting both newly added and newly removed edges. This results in new challenges in the evaluation of dynamic link prediction methods, and the recommendations provided by Yang et al. are no longer applicable, because they do not address edge removal. In this paper, we investigate several metrics currently used for evaluating accuracies of dynamic link prediction methods and demonstrate why they can be misleading in many cases. We provide several recommendations on evaluating dynamic link prediction accuracy, including separation into two categories of evaluation. Finally we propose a unified metric to characterize link prediction accuracy effectively using a single number.",
     "title": "Evaluating Link Prediction Accuracy on Dynamic Networks with Added and Removed Edges"
-  },
-  {
-    "arxiv": "1607.08692",
-    "counts": {
-      "NAM": 1,
-      "RotH": 1,
-      "SE": 1
-    },
-    "published": "2016-07-29T06:28:32Z",
-    "summary": "Most of the existing methods for bilingual word embedding only consider shallow context or simple co-occurrence information. In this paper, we propose a latent bilingual sense unit (Bilingual Sense Clique, BSC), which is derived from a maximum complete sub-graph of pointwise mutual information based graph over bilingual corpus. In this way, we treat source and target words equally and a separated bilingual projection processing that have to be used in most existing works is not necessary any more. Several dimension reduction methods are evaluated to summarize the BSC-word relationship. The proposed method is evaluated on bilingual lexicon translation tasks and empirical results show that bilingual sense embedding methods outperform existing bilingual word embedding methods.",
-    "title": "A Novel Bilingual Word Embedding Method for Lexical Translation Using Bilingual Sense Clique"
   },
   {
     "arxiv": "1608.02087",
@@ -564,17 +542,6 @@
     "published": "2016-09-13T17:34:33Z",
     "summary": "Networks extracted from social media platforms frequently include multiple types of links that dynamically change over time; these links can be used to represent dyadic interactions such as economic transactions, communications, and shared activities. Organizing this data into a dynamic multiplex network, where each layer is composed of a single edge type linking the same underlying vertices, can reveal interesting cross-layer interaction patterns. In coevolving networks, links in one layer result in an increased probability of other types of links forming between the same node pair. Hence we believe that a holistic approach in which all the layers are simultaneously considered can outperform a factored approach in which link prediction is performed separately in each layer. This paper introduces a comprehensive framework, MLP (Multilayer Link Prediction), in which link existence likelihoods for the target layer are learned from the other network layers. These likelihoods are used to reweight the output of a single layer link prediction method that uses rank aggregation to combine a set of topological metrics. Our experiments show that our reweighting procedure outperforms other methods for fusing information across network layers.",
     "title": "A Holistic Approach for Predicting Links in Coevolving Multilayer Networks"
-  },
-  {
-    "arxiv": "1609.08084",
-    "counts": {
-      "LINE": 2,
-      "NAM": 3,
-      "SE": 2
-    },
-    "published": "2016-09-26T17:19:07Z",
-    "summary": "Entity linking is the task of identifying mentions of entities in text, and linking them to entries in a knowledge base. This task is especially difficult in microblogs, as there is little additional text to provide disambiguating context; rather, authors rely on an implicit common ground of shared knowledge with their readers. In this paper, we attempt to capture some of this implicit context by exploiting the social network structure in microblogs. We build on the theory of homophily, which implies that socially linked individuals share interests, and are therefore likely to mention the same sorts of entities. We implement this idea by encoding authors, mentions, and entities in a continuous vector space, which is constructed so that socially-connected authors have similar vector representations. These vectors are incorporated into a neural structured prediction model, which captures structural constraints that are inherent in the entity linking task. Together, these design decisions yield F1 improvements of 1%-5% on benchmark datasets, as compared to the previous state-of-the-art.",
-    "title": "Toward Socially-Infused Information Extraction: Embedding Authors, Mentions, and Entities"
   },
   {
     "arxiv": "1610.08722",
@@ -645,18 +612,6 @@
     "published": "2017-02-22T16:28:11Z",
     "summary": "In statistical relational learning, knowledge graph completion deals with automatically understanding the structure of large knowledge graphs---labeled directed graphs---and predicting missing relationships---labeled edges. State-of-the-art embedding models propose different trade-offs between modeling expressiveness, and time and space complexity. We reconcile both expressiveness and complexity through the use of complex-valued embeddings and explore the link between such complex-valued embeddings and unitary diagonalization. We corroborate our approach theoretically and show that all real square matrices---thus all possible relation/adjacency matrices---are the real part of some unitarily diagonalizable matrix. This results opens the door to a lot of other applications of square matrices factorization. Our approach based on complex embeddings is arguably simple, as it only involves a Hermitian dot product, the complex counterpart of the standard dot product between real vectors, whereas other methods resort to more and more complicated composition functions to increase their expressiveness. The proposed complex embeddings are scalable to large data sets as it remains linear in both space and time, while consistently outperforming alternative approaches on standard link prediction benchmarks.",
     "title": "Knowledge Graph Completion via Complex Tensor Factorization"
-  },
-  {
-    "arxiv": "1703.02261",
-    "counts": {
-      "ComplEx": 1,
-      "GeomE": 1,
-      "HAKE": 1,
-      "SE": 1
-    },
-    "published": "2017-03-07T08:02:33Z",
-    "summary": "The notion of 1-planarity is among the most natural and most studied generalizations of graph planarity. A graph is 1-planar if it has an embedding where each edge is crossed by at most another edge. The study of 1-planar graphs dates back to more than fifty years ago and, recently, it has driven increasing attention in the areas of graph theory, graph algorithms, graph drawing, and computational geometry. This annotated bibliography aims to provide a guiding reference to researchers who want to have an overview of the large body of literature about 1-planar graphs. It reviews the current literature covering various research streams about 1-planarity, such as characterization and recognition, combinatorial properties, and geometric representations. As an additional contribution, we offer a list of open problems on 1-planar graphs.",
-    "title": "An annotated bibliography on 1-planarity"
   },
   {
     "arxiv": "1703.03862",

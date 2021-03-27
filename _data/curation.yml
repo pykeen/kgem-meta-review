@@ -31,6 +31,10 @@ irrelevant:
   - arxiv: "1909.02073"
   - arxiv: "2008.12646"
   - arxiv: "1609.03145"
+  - arxiv: "1606.08942"
+  - arxiv: "1607.08692"
+  - arxiv: "1609.08084"
+  - arxiv: "1703.02261"
 novel:
   - arxiv: "2103.03642"
     model: TACT
