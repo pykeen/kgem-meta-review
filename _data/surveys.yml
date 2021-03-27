@@ -1,8 +1,49 @@
 - title: "A Survey on Knowledge Graphs: Representation, Acquisition and Applications"
   author: Ji
   year: 2020
-  arxiv: 2002.00388
+  arxiv: "2002.00388"
   link: https://arxiv.org/pdf/2002.00388
+  models:
+    - HAKE
+    - ComplEx
+    - RotatE
+    - QuatE
+    - ManifoldE
+    - TorusE
+    - DihEdral
+    - MuRP
+    - AttH
+    - KG2E
+    - TransG
+    - TransE
+    - TransR
+    - TransH
+    - TransA
+    - TransF
+    - ITransF
+    - TransAt
+    - TransD
+    - TransM
+    - TranSparse
+    - TATEC
+    - ANALOGY
+    - CrossE
+    - SME
+    - DistMult
+    - HolE
+    - HolEx
+    - SE
+    - SimplE
+    - RESCAL
+    - LFM
+    - TickER
+    - LowFER
+    - ER-MLP
+    - NAM
+    - ConvE
+    - ConvKB
+    - SACN
+    - NTN
 - title: "A Survey on Knowledge Graph Embedding: Approaches, Applications and Benchmarks"
   author: Dai
   year: 2020
@@ -14,5 +55,5 @@
 - title: "A Review of Relational Machine Learning for Knowledge Graphs"
   author: Nickel
   year: 2015
-  arxiv: 1503.00759
+  arxiv: "1503.00759"
   link: https://arxiv.org/pdf/1503.00759.pdf

@@ -32,7 +32,7 @@
   datasets:
     - FB15k-237
     - WN18
-- arxiv: 2002.00819
+- arxiv: "2002.00819"
   title: "Knowledge Graph Embedding for Link Prediction: A Comparative Analysis"
   author: Rossi
   year: 2020
@@ -61,7 +61,7 @@
     - WN18
     - WN18RR
     - YAGO3-10
-- arxiv: 2006.13365
+- arxiv: "2006.13365"
   title: "Bringing Light Into the Dark: A Large-scale Evaluation of Knowledge Graph Embedding Models Under a Unified Framework"
   author: Ali
   year: 2020

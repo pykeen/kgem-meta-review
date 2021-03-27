@@ -1,0 +1,75 @@
+hits:
+  - arxiv: "1703.08098"
+  - arxiv: "1909.03794"
+  - arxiv: "1910.12507"
+  - arxiv: "2003.07743"
+  - arxiv: "1709.07604"
+  - arxiv: "2101.06569"
+  - arxiv: "2003.08001"
+irrelevant:
+  - arxiv: "0705.1792"
+  - arxiv: "0709.0380"
+  - arxiv: "0709.4087"
+  - arxiv: physics/0408030
+  - arxiv: nucl-th/0703004
+  - arxiv: math/9704221
+novel:
+  - arxiv: "2103.03642"
+    model: TACT
+  - arxiv: "2008.03130"
+    model: ConEx
+  - arxiv: "1909.03193"
+    model: KG-BERT
+  - arxiv: "1606.08140"
+    model: STransE
+  - arxiv: "1911.09419"
+    model: HAKE
+  - arxiv: "2009.12517"
+    model: QuatRE
+  - model: GeomE
+    arxiv: "2010.00989"
+  - arxiv: "2011.03798"
+    model: PairRE
+  - model: OPTransE
+    arxiv: "1909.11864"
+  - model: TransEdge
+    arxiv: "2004.13579"
+  - arxiv: "1902.10197"
+    model: RotatE
+  - arxiv: "2006.04986"
+    model: 5*
+  - arxiv: "2010.04863"
+    model: RatE
+  - arxiv: "2010.12882"
+    model: FedE
+  - arxiv: "2005.10956"
+    model: NagE
+skip:
+  - astro-ph/0001098
+  - astro-ph/0212016
+  - astro-ph/0301647
+  - astro-ph/0407639
+  - astro-ph/0409564
+  - astro-ph/0502105
+  - astro-ph/0602542
+  - astro-ph/9610120
+  - astro-ph/9901307
+  - astro-ph/9904108
+  - cond-mat/0305388
+  - cond-mat/0401338
+  - cond-mat/0505070
+  - cond-mat/9910372
+  - gr-qc/0304042
+  - hep-ph/0002278
+  - hep-ph/0205340
+  - hep-th/9701103
+  - math/0009016
+  - math/0106102
+  - math/0107007
+  - math/0309192
+  - math/0605069
+  - math/0605339
+  - math/9301216
+  - math/9704221
+  - nucl-th/0703004
+  - physics/0408030
