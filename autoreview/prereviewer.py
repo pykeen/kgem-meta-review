@@ -8,7 +8,7 @@ import os
 import tarfile
 from collections import Counter
 from functools import lru_cache
-from typing import Set
+from typing import List, Mapping, Set
 
 import yaml
 from tqdm import tqdm
@@ -68,9 +68,9 @@ def main(include_pre: bool = False):
 
 
 @lru_cache(maxsize=1)
-def get_vocabulary() -> Set[str]:
+def get_vocabulary() -> Mapping[str, List[str]]:
     with open(VOCABULARY_PATH) as file:
-        return set(json.load(file))
+        return json.load(file)
 
 
 def iter_papers(include_pre: bool = False):
@@ -114,8 +114,12 @@ def check(arxiv_id: str):
                 continue
             with open(os.path.join(directory, name)) as file:
                 text = file.read()
-                for token in get_vocabulary():
-                    if token in text:
+                for token, synonyms in get_vocabulary().items():
+                    if (
+                        token in text
+                        or token.capitalize() in text
+                        or (synonyms and any(synonym in text for synonym in synonyms))
+                    ):
                         counter[token] += 1
                     if token.casefold() in text.casefold():
                         ci_counter[token] += 1
