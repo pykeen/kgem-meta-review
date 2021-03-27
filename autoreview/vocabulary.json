@@ -6,6 +6,8 @@
   "AutoSF": [],
   "Bilinear + TR": [],
   "CaspE": [],
+  "CoKE": [],
+  "CompGCN": [],
   "ComplEx": [],
   "ComplEx-N3": [],
   "ConEx": [],
@@ -28,6 +30,7 @@
   "ITransF": [],
   "KG-BERT": [],
   "KG2E": [],
+  "KR-EAR": [],
   "LFM": [],
   "LINE": [],
   "LiteralE": [],
@@ -36,8 +39,14 @@
   "ManifoldE": [],
   "Motif2Vec": [],
   "MotifWalk": [],
-  "MuRE": ["MuRe", "MurE"],
-  "MuRP": ["MurP", "MuRp"],
+  "MuRE": [
+    "MuRe",
+    "MurE"
+  ],
+  "MuRP": [
+    "MurP",
+    "MuRp"
+  ],
   "NAM": [],
   "NASE": [],
   "NTN": [],
@@ -58,14 +67,16 @@
   "RotatE": [],
   "SACN": [],
   "SDNE": [],
-  "SE": ["Structured Embedding"],
+  "SE": [
+    "Structured Embedding"
+  ],
   "SME": [],
   "STransE": [],
   "SimplE": [],
-  "struc2Vec": [],
-  "subgraph2Vec": [],
+  "Structured Embedding": [],
   "TACT": [],
   "TATEC": [],
+  "TKRL": [],
   "TickER": [],
   "TorusE": [],
   "TranSparse": [],
@@ -83,5 +94,7 @@
   "TuckER": [],
   "Unstructured Model": [],
   "metapath2vec": [],
-  "node2vec": []
+  "node2vec": [],
+  "struc2Vec": [],
+  "subgraph2Vec": []
 }

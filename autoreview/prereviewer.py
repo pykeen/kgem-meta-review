@@ -8,7 +8,8 @@ import os
 import tarfile
 from collections import Counter
 from functools import lru_cache
-from typing import List, Mapping, Set
+from operator import itemgetter
+from typing import List, Mapping
 
 import yaml
 from tqdm import tqdm
@@ -61,8 +62,8 @@ def main(include_pre: bool = False):
             **data,
         })
 
-    # Put papers with highest number of hits from the CV first inthe curation sheet
-    results = sorted(results, key=lambda result: len(result['counts']), reverse=True)
+    # Put papers with highest number of hits from the CV first in the curation sheet
+    results = sorted(results, key=itemgetter('arxiv'))
     with open(RESULTS, 'w') as file:
         json.dump(results, file, sort_keys=True, indent=2)
 
