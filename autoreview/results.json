@@ -18,7 +18,7 @@
     },
     "published": "2019-11-09T07:02:33Z",
     "summary": "Translational distance-based knowledge graph embedding has shown progressive improvements on the link prediction task, from TransE to the latest state-of-the-art RotatE. However, N-1, 1-N and N-N predictions still remain challenging. In this work, we propose a novel translational distance-based approach for knowledge graph link prediction. The proposed method includes two-folds, first we extend the RotatE from 2D complex domain to high dimension space with orthogonal transforms to model relations for better modeling capacity. Second, the graph context is explicitly modeled via two directed context representations. These context representations are used as part of the distance scoring function to measure the plausibility of the triples during training and inference. The proposed approach effectively improves prediction accuracy on the difficult N-1, 1-N and N-N cases for knowledge graph link prediction task. The experimental results show that it achieves better performance on two benchmark data sets compared to the baseline RotatE, especially on data set (FB15k-237) with many high in-degree connection nodes.",
-    "title": "Orthogonal Relation Transforms with Graph Context Modeling for Knowledge   Graph Embedding"
+    "title": "Orthogonal Relation Transforms with Graph Context Modeling for Knowledge Graph Embedding"
   },
   {
     "arxiv": "2005.00545",
@@ -78,7 +78,7 @@
     },
     "published": "2019-03-27T13:09:16Z",
     "summary": "Knowledge graph is a popular format for representing knowledge, with many applications to semantic search engines, question-answering systems, and recommender systems. Real-world knowledge graphs are usually incomplete, so knowledge graph embedding methods, such as Canonical decomposition/Parallel factorization (CP), DistMult, and ComplEx, have been proposed to address this issue. These methods represent entities and relations as embedding vectors in semantic space and predict the links between them. The embedding vectors themselves contain rich semantic information and can be used in other applications such as data analysis. However, mechanisms in these models and the embedding vectors themselves vary greatly, making it difficult to understand and compare them. Given this lack of understanding, we risk using them ineffectively or incorrectly, particularly for complicated models, such as CP, with two role-based embedding vectors, or the state-of-the-art ComplEx model, with complex-valued embedding vectors. In this paper, we propose a multi-embedding interaction mechanism as a new approach to uniting and generalizing these models. We derive them theoretically via this mechanism and provide empirical analyses and comparisons between them. We also propose a new multi-embedding model based on quaternion algebra and show that it achieves promising results using popular benchmarks. Source code is available on github at https://github.com/tranhungnghiep/AnalyzingKGEmbeddings",
-    "title": "Analyzing Knowledge Graph Embedding Methods from a Multi-Embedding   Interaction Perspective"
+    "title": "Analyzing Knowledge Graph Embedding Methods from a Multi-Embedding Interaction Perspective"
   },
   {
     "arxiv": "1909.03821",
@@ -97,7 +97,7 @@
     },
     "published": "2019-09-09T12:58:16Z",
     "summary": "Knowledge graphs are useful for many artificial intelligence tasks but often have missing data. Hence, a method for completing knowledge graphs is required. Existing approaches include embedding models, the Path Ranking Algorithm, and rule evaluation models. However, these approaches have limitations. For example, all the information is mixed and difficult to interpret in embedding models, and traditional rule evaluation models are basically slow. In this paper, we provide an integrated view of various approaches and combine them to compensate for their limitations. We first unify state-of-the-art embedding models, such as ComplEx and TorusE, reinterpreting them as a variant of translation-based models. Then, we show that these models utilize paths for link prediction and propose a method for evaluating rules based on this idea. Finally, we combine an embedding model and observed feature models to predict missing triples. This is possible because all of these models utilize paths. We also conduct experiments, including link prediction tasks, with standard datasets to evaluate our method and framework. The experiments show that our method can evaluate rules faster than traditional methods and that our framework outperforms state-of-the-art models in terms of link prediction.",
-    "title": "Combination of Unified Embedding Model and Observed Features for   Knowledge Graph Completion"
+    "title": "Combination of Unified Embedding Model and Observed Features for Knowledge Graph Completion"
   },
   {
     "arxiv": "1911.08776",
@@ -172,7 +172,7 @@
     },
     "published": "2020-07-22T02:20:25Z",
     "summary": "Knowledge graph embedding, which aims to learn the low-dimensional representations of entities and relationships, has attracted considerable research efforts recently. However, most knowledge graph embedding methods focus on the structural relationships in fixed triples while ignoring the temporal information. Currently, existing time-aware graph embedding methods only focus on the factual plausibility, while ignoring the temporal smoothness which models the interactions between a fact and its contexts, and thus can capture fine-granularity temporal relationships. This leads to the limited performance of embedding related applications. To solve this problem, this paper presents a Robustly Time-aware Graph Embedding (RTGE) method by incorporating temporal smoothness. Two major innovations of our paper are presented here. At first, RTGE integrates a measure of temporal smoothness in the learning process of the time-aware graph embedding. Via the proposed additional smoothing factor, RTGE can preserve both structural information and evolutionary patterns of a given graph. Secondly, RTGE provides a general task-oriented negative sampling strategy associated with temporally-aware information, which further improves the adaptive ability of the proposed algorithm and plays an essential role in obtaining superior performance in various tasks. Extensive experiments conducted on multiple benchmark tasks show that RTGE can increase performance in entity/relationship/temporal scoping prediction tasks.",
-    "title": "Time-aware Graph Embedding: A temporal smoothness and task-oriented   approach"
+    "title": "Time-aware Graph Embedding: A temporal smoothness and task-oriented approach"
   },
   {
     "arxiv": "2008.07723",
@@ -190,7 +190,7 @@
     },
     "published": "2020-08-18T03:34:09Z",
     "summary": "Link prediction is the task of predicting missing connections between entities in the knowledge graph (KG). While various forms of models are proposed for the link prediction task, most of them are designed based on a few known relation patterns in several well-known datasets. Due to the diversity and complexity nature of the real-world KGs, it is inherently difficult to design a model that fits all datasets well. To address this issue, previous work has tried to use Automated Machine Learning (AutoML) to search for the best model for a given dataset. However, their search space is limited only to bilinear model families. In this paper, we propose a novel Neural Architecture Search (NAS) framework for the link prediction task. First, the embeddings of the input triplet are refined by the Representation Search Module. Then, the prediction score is searched within the Score Function Search Module. This framework entails a more general search space, which enables us to take advantage of several mainstream model families, and thus it can potentially achieve better performance. We relax the search space to be continuous so that the architecture can be optimized efficiently using gradient-based search strategies. Experimental results on several benchmark datasets demonstrate the effectiveness of our method compared with several state-of-the-art approaches.",
-    "title": "NASE: Learning Knowledge Graph Embedding for Link Prediction via Neural   Architecture Search"
+    "title": "NASE: Learning Knowledge Graph Embedding for Link Prediction via Neural Architecture Search"
   },
   {
     "arxiv": "2011.07751",
@@ -243,7 +243,7 @@
     },
     "published": "2015-06-02T19:34:19Z",
     "summary": "This paper tackles the problem of endogenous link prediction for Knowledge Base completion. Knowledge Bases can be represented as directed graphs whose nodes correspond to entities and edges to relationships. Previous attempts either consist of powerful systems with high capacity to model complex connectivity patterns, which unfortunately usually end up overfitting on rare relationships, or in approaches that trade capacity for simplicity in order to fairly model all relationships, frequent or not. In this paper, we propose Tatec a happy medium obtained by complementing a high-capacity model with a simpler one, both pre-trained separately and then combined. We present several variants of this model with different kinds of regularization and combination strategies and show that this approach outperforms existing methods on different types of relationships by achieving state-of-the-art results on four benchmarks of the literature.",
-    "title": "Combining Two And Three-Way Embeddings Models for Link Prediction in   Knowledge Bases"
+    "title": "Combining Two And Three-Way Embeddings Models for Link Prediction in Knowledge Bases"
   },
   {
     "arxiv": "1512.01370",
@@ -261,23 +261,6 @@
     "published": "2015-12-04T11:09:55Z",
     "summary": "Knowledge graph embedding aims to represent entities and relations in a large-scale knowledge graph as elements in a continuous vector space. Existing methods, e.g., TransE and TransH, learn embedding representation by defining a global margin-based loss function over the data. However, the optimal loss function is determined during experiments whose parameters are examined among a closed set of candidates. Moreover, embeddings over two knowledge graphs with different entities and relations share the same set of candidate loss functions, ignoring the locality of both graphs. This leads to the limited performance of embedding related applications. In this paper, we propose a locally adaptive translation method for knowledge graph embedding, called TransA, to find the optimal loss function by adaptively determining its margin over different knowledge graphs. Experiments on two benchmark data sets demonstrate the superiority of the proposed method, as compared to the-state-of-the-art ones.",
     "title": "Locally Adaptive Translation for Knowledge Graph Embedding"
-  },
-  {
-    "arxiv": "1903.12287",
-    "counts": {
-      "ComplEx": 1,
-      "DistMult": 1,
-      "HolE": 1,
-      "LFM": 1,
-      "R-GCN": 1,
-      "RESCAL": 1,
-      "SE": 1,
-      "SME": 1,
-      "TransE": 1
-    },
-    "published": "2019-03-28T21:51:09Z",
-    "summary": "Graph embedding methods produce unsupervised node features from graphs that can then be used for a variety of machine learning tasks. Modern graphs, particularly in industrial applications, contain billions of nodes and trillions of edges, which exceeds the capability of existing embedding systems. We present PyTorch-BigGraph (PBG), an embedding system that incorporates several modifications to traditional multi-relation embedding systems that allow it to scale to graphs with billions of nodes and trillions of edges. PBG uses graph partitioning to train arbitrarily large embeddings on either a single machine or in a distributed environment. We demonstrate comparable performance with existing embedding systems on common benchmarks, while allowing for scaling to arbitrarily large graphs and parallelization on multiple machines. We train and evaluate embeddings on several large social network graphs as well as the full Freebase dataset, which contains over 100 million nodes and 2 billion edges.",
-    "title": "PyTorch-BigGraph: A Large-scale Graph Embedding System"
   },
   {
     "arxiv": "1911.00055",
@@ -360,7 +343,7 @@
     },
     "published": "2020-06-11T17:42:46Z",
     "summary": "Many practical graph problems, such as knowledge graph construction and drug-drug interaction prediction, require to handle multi-relational graphs. However, handling real-world multi-relational graphs with Graph Neural Networks (GNNs) is often challenging due to their evolving nature, as new entities (nodes) can emerge over time. Moreover, newly emerged entities often have few links, which makes the learning even more difficult. Motivated by this challenge, we introduce a realistic problem of few-shot out-of-graph link prediction, where we not only predict the links between the seen and unseen nodes as in a conventional out-of-knowledge link prediction task but also between the unseen nodes, with only few edges per node. We tackle this problem with a novel transductive meta-learning framework which we refer to as Graph Extrapolation Networks (GEN). GEN meta-learns both the node embedding network for inductive inference (seen-to-unseen) and the link prediction network for transductive inference (unseen-to-unseen). For transductive link prediction, we further propose a stochastic embedding layer to model uncertainty in the link prediction between unseen entities. We validate our model on multiple benchmark datasets for knowledge graph completion and drug-drug interaction prediction. The results show that our model significantly outperforms relevant baselines for out-of-graph link prediction tasks.",
-    "title": "Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph   Link Prediction"
+    "title": "Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction"
   },
   {
     "arxiv": "2010.13688",
@@ -376,7 +359,7 @@
     },
     "published": "2020-10-26T16:08:13Z",
     "summary": "Neural embedding approaches have become a staple in the fields of computer vision, natural language processing, and more recently, graph analytics. Given the pervasive nature of these algorithms, the natural question becomes how to exploit the embedding spaces to map, or align, embeddings of different data sources. To this end, we survey the current research landscape on word, sentence and knowledge graph embedding algorithms. We provide a classification of the relevant alignment techniques and discuss benchmark datasets used in this field of research. By gathering these diverse approaches into a singular survey, we hope to further motivate research into alignment of embedding spaces of varied data types and sources.",
-    "title": "A Survey of Embedding Space Alignment Methods for Language and Knowledge   Graphs"
+    "title": "A Survey of Embedding Space Alignment Methods for Language and Knowledge Graphs"
   },
   {
     "arxiv": "2012.11957",
@@ -392,7 +375,7 @@
     },
     "published": "2020-12-22T12:22:03Z",
     "summary": "Developing link prediction models to automatically complete knowledge graphs has recently been the focus of significant research interest. The current methods for the link prediction taskhavetwonaturalproblems:1)the relation distributions in KGs are usually unbalanced, and 2) there are many unseen relations that occur in practical situations. These two problems limit the training effectiveness and practical applications of the existing link prediction models. We advocate a holistic understanding of KGs and we propose in this work a unified Generalized Relation Learning framework GRL to address the above two problems, which can be plugged into existing link prediction models. GRL conducts a generalized relation learning, which is aware of semantic correlations between relations that serve as a bridge to connect semantically similar relations. After training with GRL, the closeness of semantically similar relations in vector space and the discrimination of dissimilar relations are improved. We perform comprehensive experiments on six benchmarks to demonstrate the superior capability of GRL in the link prediction task. In particular, GRL is found to enhance the existing link prediction models making them insensitive to unbalanced relation distributions and capable of learning unseen relations.",
-    "title": "Generalized Relation Learning with Semantic Correlation Awareness for   Link Prediction"
+    "title": "Generalized Relation Learning with Semantic Correlation Awareness for Link Prediction"
   },
   {
     "arxiv": "2103.10367",
@@ -408,7 +391,7 @@
     },
     "published": "2021-03-18T16:46:11Z",
     "summary": "Biomedical knowledge graphs permit an integrative computational approach to reasoning about biological systems. The nature of biological data leads to a graph structure that differs from those typically encountered in benchmarking datasets. To understand the implications this may have on the performance of reasoning algorithms, we conduct an empirical study based on the real-world task of drug repurposing. We formulate this task as a link prediction problem where both compounds and diseases correspond to entities in a knowledge graph. To overcome apparent weaknesses of existing algorithms, we propose a new method, PoLo, that combines policy-guided walks based on reinforcement learning with logical rules. These rules are integrated into the algorithm by using a novel reward function. We apply our method to Hetionet, which integrates biomedical information from 29 prominent bioinformatics databases. Our experiments show that our approach outperforms several state-of-the-art methods for link prediction while providing interpretability.",
-    "title": "Neural Multi-Hop Reasoning With Logical Rules on Biomedical Knowledge   Graphs"
+    "title": "Neural Multi-Hop Reasoning With Logical Rules on Biomedical Knowledge Graphs"
   },
   {
     "arxiv": "1606.06357",
@@ -468,7 +451,7 @@
     },
     "published": "2019-08-28T09:49:15Z",
     "summary": "Low-dimensional embeddings of knowledge graphs and behavior graphs have proved remarkably powerful in varieties of tasks, from predicting unobserved edges between entities to content recommendation. The two types of graphs can contain distinct and complementary information for the same entities/nodes. However, previous works focus either on knowledge graph embedding or behavior graph embedding while few works consider both in a unified way. Here we present BEM , a Bayesian framework that incorporates the information from knowledge graphs and behavior graphs. To be more specific, BEM takes as prior the pre-trained embeddings from the knowledge graph, and integrates them with the pre-trained embeddings from the behavior graphs via a Bayesian generative model. BEM is able to mutually refine the embeddings from both sides while preserving their own topological structures. To show the superiority of our method, we conduct a range of experiments on three benchmark datasets: node classification, link prediction, triplet classification on two small datasets related to Freebase, and item recommendation on a large-scale e-commerce dataset.",
-    "title": "Bayes EMbedding (BEM): Refining Representation by Integrating Knowledge   Graphs and Behavior-specific Networks"
+    "title": "Bayes EMbedding (BEM): Refining Representation by Integrating Knowledge Graphs and Behavior-specific Networks"
   },
   {
     "arxiv": "1909.01515",
@@ -483,7 +466,7 @@
     },
     "published": "2019-09-04T01:35:47Z",
     "summary": "Link prediction is an important way to complete knowledge graphs (KGs), while embedding-based methods, effective for link prediction in KGs, perform poorly on relations that only have a few associative triples. In this work, we propose a Meta Relational Learning (MetaR) framework to do the common but challenging few-shot link prediction in KGs, namely predicting new triples about a relation by only observing a few associative triples. We solve few-shot link prediction by focusing on transferring relation-specific meta information to make model learn the most important knowledge and learn faster, corresponding to relation meta and gradient meta respectively in MetaR. Empirically, our model achieves state-of-the-art results on few-shot link prediction KG benchmarks.",
-    "title": "Meta Relational Learning for Few-Shot Link Prediction in Knowledge   Graphs"
+    "title": "Meta Relational Learning for Few-Shot Link Prediction in Knowledge Graphs"
   },
   {
     "arxiv": "2001.00461",
@@ -558,7 +541,7 @@
     },
     "published": "2020-09-22T20:29:27Z",
     "summary": "The problem of knowledge graph (KG) reasoning has been widely explored by traditional rule-based systems and more recently by knowledge graph embedding methods. While logical rules can capture deterministic behavior in a KG they are brittle and mining ones that infer facts beyond the known KG is challenging. Probabilistic embedding methods are effective in capturing global soft statistical tendencies and reasoning with them is computationally efficient. While embedding representations learned from rich training data are expressive, incompleteness and sparsity in real-world KGs can impact their effectiveness. We aim to leverage the complementary properties of both methods to develop a hybrid model that learns both high-quality rules and embeddings simultaneously. Our method uses a cross feedback paradigm wherein, an embedding model is used to guide the search of a rule mining system to mine rules and infer new facts. These new facts are sampled and further used to refine the embedding model. Experiments on multiple benchmark datasets show the effectiveness of our method over other competitive standalone and hybrid baselines. We also show its efficacy in a sparse KG setting and finally explore the connection with negative sampling.",
-    "title": "A Hybrid Model for Learning Embeddings and Logical Rules Simultaneously   from Knowledge Graphs"
+    "title": "A Hybrid Model for Learning Embeddings and Logical Rules Simultaneously from Knowledge Graphs"
   },
   {
     "arxiv": "2012.11147",
@@ -628,7 +611,7 @@
     },
     "published": "2017-08-22T20:53:29Z",
     "summary": "Knowledge graphs are large, useful, but incomplete knowledge repositories. They encode knowledge through entities and relations which define each other through the connective structure of the graph. This has inspired methods for the joint embedding of entities and relations in continuous low-dimensional vector spaces, that can be used to induce new edges in the graph, i.e., link prediction in knowledge graphs. Learning these representations relies on contrasting positive instances with negative ones. Knowledge graphs include only positive relation instances, leaving the door open for a variety of methods for selecting negative examples. In this paper we present an empirical study on the impact of negative sampling on the learned embeddings, assessed through the task of link prediction. We use state-of-the-art knowledge graph embeddings -- \\rescal , TransE, DistMult and ComplEX -- and evaluate on benchmark datasets -- FB15k and WN18. We compare well known methods for negative sampling and additionally propose embedding based sampling methods. We note a marked difference in the impact of these sampling methods on the two datasets, with the \"traditional\" corrupting positives method leading to best results on WN18, while embedding based methods benefiting the task on FB15k.",
-    "title": "Analysis of the Impact of Negative Sampling on Link Prediction in   Knowledge Graphs"
+    "title": "Analysis of the Impact of Negative Sampling on Link Prediction in Knowledge Graphs"
   },
   {
     "arxiv": "1802.03638",
@@ -641,7 +624,7 @@
     },
     "published": "2018-02-10T18:46:54Z",
     "summary": "Graph representations of large knowledge bases may comprise billions of edges. Usually built upon human-generated ontologies, several knowledge bases do not feature declared ontological rules and are far from being complete. Current rule mining approaches rely on schemata or store the graph in-memory, which can be unfeasible for large graphs. In this paper, we introduce HornConcerto, an algorithm to discover Horn clauses in large graphs without the need of a schema. Using a standard fact-based confidence score, we can mine close Horn rules having an arbitrary body size. We show that our method can outperform existing approaches in terms of runtime and memory consumption and mine high-quality rules for the link prediction task, achieving state-of-the-art results on a widely-used benchmark. Moreover, we find that rules alone can perform inference significantly faster than embedding-based methods and achieve accuracies on link prediction comparable to resource-demanding approaches such as Markov Logic Networks.",
-    "title": "Beyond Markov Logic: Efficient Mining of Prediction Rules in Large   Graphs"
+    "title": "Beyond Markov Logic: Efficient Mining of Prediction Rules in Large Graphs"
   },
   {
     "arxiv": "1807.08484",
@@ -680,7 +663,7 @@
     },
     "published": "2020-12-31T10:41:01Z",
     "summary": "Modeling time-evolving knowledge graphs (KGs) has recently gained increasing interest. Here, graph representation learning has become the dominant paradigm for link prediction on temporal KGs. However, the embedding-based approaches largely operate in a black-box fashion, lacking the ability to interpret their predictions. This paper provides a link forecasting framework that reasons over query-relevant subgraphs of temporal KGs and jointly models the structural dependencies and the temporal dynamics. Especially, we propose a temporal relational attention mechanism and a novel reverse representation update scheme to guide the extraction of an enclosing subgraph around the query. The subgraph is expanded by an iterative sampling of temporal neighbors and by attention propagation. Our approach provides human-understandable evidence explaining the forecast. We evaluate our model on four benchmark temporal knowledge graphs for the link forecasting task. While being more explainable, our model obtains a relative improvement of up to 20% on Hits@1 compared to the previous best KG forecasting method. We also conduct a survey with 53 respondents, and the results show that the evidence extracted by the model for link forecasting is aligned with human understanding.",
-    "title": "xERTE: Explainable Reasoning on Temporal Knowledge Graphs for   Forecasting Future Links"
+    "title": "xERTE: Explainable Reasoning on Temporal Knowledge Graphs for Forecasting Future Links"
   },
   {
     "arxiv": "1901.03425",
@@ -762,7 +745,7 @@
     },
     "published": "2018-07-13T15:15:41Z",
     "summary": "Extraction from raw text to a knowledge base of entities and fine-grained types is often cast as prediction into a flat set of entity and type labels, neglecting the rich hierarchies over types and entities contained in curated ontologies. Previous attempts to incorporate hierarchical structure have yielded little benefit and are restricted to shallow ontologies. This paper presents new methods using real and complex bilinear mappings for integrating hierarchical information, yielding substantial improvement over flat predictions in entity linking and fine-grained entity typing, and achieving new state-of-the-art results for end-to-end models on the benchmark FIGER dataset. We also present two new human-annotated datasets containing wide and deep hierarchies which we will release to the community to encourage further research in this direction: MedMentions, a collection of PubMed abstracts in which 246k mentions have been mapped to the massive UMLS ontology; and TypeNet, which aligns Freebase types with the WordNet hierarchy to obtain nearly 2k entity types. In experiments on all three datasets we show substantial gains from hierarchy-aware training.",
-    "title": "Hierarchical Losses and New Resources for Fine-grained Entity Typing and   Linking"
+    "title": "Hierarchical Losses and New Resources for Fine-grained Entity Typing and Linking"
   },
   {
     "arxiv": "1906.02989",
@@ -795,7 +778,7 @@
     },
     "published": "2019-09-24T16:52:18Z",
     "summary": "Deep learning currently dominates the benchmarks for various NLP tasks and, at the basis of such systems, words are frequently represented as embeddings --vectors in a low dimensional space-- learned from large text corpora and various algorithms have been proposed to learn both word and concept embeddings. One of the claimed benefits of such embeddings is that they capture knowledge about semantic relations. Such embeddings are most often evaluated through tasks such as predicting human-rated similarity and analogy which only test a few, often ill-defined, relations. In this paper, we propose a method for (i) reliably generating word and concept pair datasets for a wide number of relations by using a knowledge graph and (ii) evaluating to what extent pre-trained embeddings capture those relations. We evaluate the approach against a proprietary and a public knowledge graph and analyze the results, showing which lexico-semantic relational knowledge is captured by current embedding learning approaches.",
-    "title": "Assessing the Lexico-Semantic Relational Knowledge Captured by Word and   Concept Embeddings"
+    "title": "Assessing the Lexico-Semantic Relational Knowledge Captured by Word and Concept Embeddings"
   },
   {
     "arxiv": "2003.05730",
@@ -805,7 +788,7 @@
       "TransR": 1
     },
     "published": "2020-03-10T12:48:00Z",
-    "summary": "Deep learning models on graphs have achieved remarkable performance in various graph analysis tasks, e.g., node classification, link prediction and graph clustering. However, they expose uncertainty and unreliability against the well-designed inputs, i.e., adversarial examples. Accordingly, a line of studies have emerged for both attack and defense addressed in different graph analysis tasks, leading to the arms race in graph adversarial learning.   Despite the booming works, there still lacks a unified problem definition and a comprehensive review. To bridge this gap, we investigate and summarize the existing works on graph adversarial learning tasks systemically. Specifically, we survey and unify the existing works w.r.t. attack and defense in graph analysis tasks, and give appropriate definitions and taxonomies at the same time. Besides, we emphasize the importance of related evaluation metrics, investigate and summarize them comprehensively. Hopefully, our works can provide a comprehensive overview and offer insights for the relevant researchers. More details of our works are available at https://github.com/gitgiter/Graph-Adversarial-Learning.",
+    "summary": "Deep learning models on graphs have achieved remarkable performance in various graph analysis tasks, e.g., node classification, link prediction and graph clustering. However, they expose uncertainty and unreliability against the well-designed inputs, i.e., adversarial examples. Accordingly, a line of studies have emerged for both attack and defense addressed in different graph analysis tasks, leading to the arms race in graph adversarial learning. Despite the booming works, there still lacks a unified problem definition and a comprehensive review. To bridge this gap, we investigate and summarize the existing works on graph adversarial learning tasks systemically. Specifically, we survey and unify the existing works w.r.t. attack and defense in graph analysis tasks, and give appropriate definitions and taxonomies at the same time. Besides, we emphasize the importance of related evaluation metrics, investigate and summarize them comprehensively. Hopefully, our works can provide a comprehensive overview and offer insights for the relevant researchers. More details of our works are available at https://github.com/gitgiter/Graph-Adversarial-Learning.",
     "title": "A Survey of Adversarial Learning on Graphs"
   },
   {
@@ -817,7 +800,7 @@
     },
     "published": "2020-05-15T17:15:45Z",
     "summary": "Recently, link prediction algorithms based on neural embeddings have gained tremendous popularity in the Semantic Web community, and are extensively used for knowledge graph completion. While algorithmic advances have strongly focused on efficient ways of learning embeddings, fewer attention has been drawn to the different ways their performance and robustness can be evaluated. In this work we propose an open-source evaluation pipeline, which benchmarks the accuracy of neural embeddings in situations where knowledge graphs may experience semantic and structural changes. We define relation-centric connectivity measures that allow us to connect the link prediction capacity to the structure of the knowledge graph. Such an evaluation pipeline is especially important to simulate the accuracy of embeddings for knowledge graphs that are expected to be frequently updated.",
-    "title": "Benchmarking neural embeddings for link prediction in knowledge graphs   under semantic and structural changes"
+    "title": "Benchmarking neural embeddings for link prediction in knowledge graphs under semantic and structural changes"
   },
   {
     "arxiv": "2008.12646",

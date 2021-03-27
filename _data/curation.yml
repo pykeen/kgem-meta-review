@@ -6,6 +6,8 @@ hits:
   - arxiv: "1709.07604"
   - arxiv: "2101.06569"
   - arxiv: "2003.08001"
+  - arxiv: "1903.12287"
+    type: benchmark
 irrelevant:
   - arxiv: "0705.1792"
   - arxiv: "0709.0380"

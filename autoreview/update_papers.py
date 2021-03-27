@@ -4,12 +4,14 @@
 
 import json
 import os
+import re
 from xml.etree import ElementTree
 
 import requests
 
 from constants import PAPERS_PATH
 
+WHITESPACE = re.compile('\\s+')
 URL = 'https://export.arxiv.org/api/query?search_query='
 ATOM = '{http://www.w3.org/2005/Atom}'
 
@@ -25,6 +27,10 @@ QUERIES = [
 ]
 
 
+def _clean(s: str) -> str:
+    return ' '.join(s.strip().split())
+
+
 def search(query):
     url = URL + query + '&max_results=100'
     res = requests.get(url)
@@ -33,9 +39,9 @@ def search(query):
     for entry in tree.findall(f'{ATOM}entry'):
         arxiv_id = entry.find(f'{ATOM}id').text[len('http://arxiv.org/abs/'):].rsplit('v', 1)[0]
         entry = {
-            'title': entry.find(f'{ATOM}title').text.strip().replace('\n', ' '),
-            'published': entry.find(f'{ATOM}published').text.strip().replace('\n', ' '),
-            'summary': entry.find(f'{ATOM}summary').text.strip().replace('\n', ' '),
+            'title': _clean(entry.find(f'{ATOM}title').text),
+            'published': _clean(entry.find(f'{ATOM}published').text),
+            'summary': _clean(entry.find(f'{ATOM}summary').text),
         }
         rv[arxiv_id] = entry
     return rv
