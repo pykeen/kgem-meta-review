@@ -601,19 +601,6 @@
     "title": "Decompressing Knowledge Graph Representations for Link Prediction"
   },
   {
-    "arxiv": "1708.06816",
-    "counts": {
-      "ComplEx": 1,
-      "DistMult": 1,
-      "HolE": 1,
-      "RESCAL": 1,
-      "TransE": 1
-    },
-    "published": "2017-08-22T20:53:29Z",
-    "summary": "Knowledge graphs are large, useful, but incomplete knowledge repositories. They encode knowledge through entities and relations which define each other through the connective structure of the graph. This has inspired methods for the joint embedding of entities and relations in continuous low-dimensional vector spaces, that can be used to induce new edges in the graph, i.e., link prediction in knowledge graphs. Learning these representations relies on contrasting positive instances with negative ones. Knowledge graphs include only positive relation instances, leaving the door open for a variety of methods for selecting negative examples. In this paper we present an empirical study on the impact of negative sampling on the learned embeddings, assessed through the task of link prediction. We use state-of-the-art knowledge graph embeddings -- \\rescal , TransE, DistMult and ComplEX -- and evaluate on benchmark datasets -- FB15k and WN18. We compare well known methods for negative sampling and additionally propose embedding based sampling methods. We note a marked difference in the impact of these sampling methods on the two datasets, with the \"traditional\" corrupting positives method leading to best results on WN18, while embedding based methods benefiting the task on FB15k.",
-    "title": "Analysis of the Impact of Negative Sampling on Link Prediction in Knowledge Graphs"
-  },
-  {
     "arxiv": "1802.03638",
     "counts": {
       "ComplEx": 1,
@@ -625,19 +612,6 @@
     "published": "2018-02-10T18:46:54Z",
     "summary": "Graph representations of large knowledge bases may comprise billions of edges. Usually built upon human-generated ontologies, several knowledge bases do not feature declared ontological rules and are far from being complete. Current rule mining approaches rely on schemata or store the graph in-memory, which can be unfeasible for large graphs. In this paper, we introduce HornConcerto, an algorithm to discover Horn clauses in large graphs without the need of a schema. Using a standard fact-based confidence score, we can mine close Horn rules having an arbitrary body size. We show that our method can outperform existing approaches in terms of runtime and memory consumption and mine high-quality rules for the link prediction task, achieving state-of-the-art results on a widely-used benchmark. Moreover, we find that rules alone can perform inference significantly faster than embedding-based methods and achieve accuracies on link prediction comparable to resource-demanding approaches such as Markov Logic Networks.",
     "title": "Beyond Markov Logic: Efficient Mining of Prediction Rules in Large Graphs"
-  },
-  {
-    "arxiv": "1807.08484",
-    "counts": {
-      "ComplEx": 1,
-      "DistMult": 1,
-      "HolE": 1,
-      "TransE": 1,
-      "TransH": 1
-    },
-    "published": "2018-07-23T08:57:44Z",
-    "summary": "Most existing knowledge graphs (KGs) in academic domains suffer from problems of insufficient multi-relational information, name ambiguity and improper data format for large-scale machine processing. In this paper, we present AceKG, a new large-scale KG in academic domain. AceKG not only provides clean academic information, but also offers a large-scale benchmark dataset for researchers to conduct challenging data mining projects including link prediction, community detection and scholar classification. Specifically, AceKG describes 3.13 billion triples of academic facts based on a consistent ontology, including necessary properties of papers, authors, fields of study, venues and institutes, as well as the relations among them. To enrich the proposed knowledge graph, we also perform entity alignment with existing databases and rule-based inference. Based on AceKG, we conduct experiments of three typical academic data mining tasks and evaluate several state-of- the-art knowledge embedding and network representation learning approaches on the benchmark datasets built from AceKG. Finally, we discuss several promising research directions that benefit from AceKG.",
-    "title": "AceKG: A Large-scale Knowledge Graph for Academic Data Mining"
   },
   {
     "arxiv": "1904.12211",
@@ -664,18 +638,6 @@
     "published": "2020-12-31T10:41:01Z",
     "summary": "Modeling time-evolving knowledge graphs (KGs) has recently gained increasing interest. Here, graph representation learning has become the dominant paradigm for link prediction on temporal KGs. However, the embedding-based approaches largely operate in a black-box fashion, lacking the ability to interpret their predictions. This paper provides a link forecasting framework that reasons over query-relevant subgraphs of temporal KGs and jointly models the structural dependencies and the temporal dynamics. Especially, we propose a temporal relational attention mechanism and a novel reverse representation update scheme to guide the extraction of an enclosing subgraph around the query. The subgraph is expanded by an iterative sampling of temporal neighbors and by attention propagation. Our approach provides human-understandable evidence explaining the forecast. We evaluate our model on four benchmark temporal knowledge graphs for the link forecasting task. While being more explainable, our model obtains a relative improvement of up to 20% on Hits@1 compared to the previous best KG forecasting method. We also conduct a survey with 53 respondents, and the results show that the evidence extracted by the model for link forecasting is aligned with human understanding.",
     "title": "xERTE: Explainable Reasoning on Temporal Knowledge Graphs for Forecasting Future Links"
-  },
-  {
-    "arxiv": "1901.03425",
-    "counts": {
-      "DistMult": 1,
-      "NAM": 1,
-      "R-GCN": 1,
-      "SE": 1
-    },
-    "published": "2019-01-10T22:46:04Z",
-    "summary": "Link prediction in complex networks has attracted considerable attention from interdisciplinary research communities, due to its ubiquitous applications in biological networks, social networks, transportation networks, telecommunication networks, and, recently, knowledge graphs. Numerous studies utilized link prediction approaches in order sto find missing links or predict the likelihood of future links as well as employed for reconstruction networks, recommender systems, privacy control, etc. This work presents an extensive review of state-of-art methods and algorithms proposed on this subject and categorizes them into four main categories: similarity-based methods, probabilistic methods, relational models, and learning-based methods. Additionally, a collection of network data sets has been presented in this paper, which can be used in order to study link prediction. We conclude this study with a discussion of recent developments and future research directions.",
-    "title": "Review on Learning and Extracting Graph Features for Link Prediction"
   },
   {
     "arxiv": "1905.10674",
@@ -748,28 +710,6 @@
     "title": "Hierarchical Losses and New Resources for Fine-grained Entity Typing and Linking"
   },
   {
-    "arxiv": "1906.02989",
-    "counts": {
-      "R-GCN": 1,
-      "SE": 1,
-      "TransE": 1
-    },
-    "published": "2019-06-07T09:52:53Z",
-    "summary": "Deep Neural Networks have shown tremendous success in the area of object recognition, image classification and natural language processing. However, designing optimal Neural Network architectures that can learn and output arbitrary graphs is an ongoing research problem. The objective of this survey is to summarize and discuss the latest advances in methods to Learn Representations of Graph Data. We start by identifying commonly used types of graph data and review basics of graph theory. This is followed by a discussion of the relationships between graph kernel methods and neural networks. Next we identify the major approaches used for learning representations of graph data namely: Kernel approaches, Convolutional approaches, Graph neural networks approaches, Graph embedding approaches and Probabilistic approaches. A variety of methods under each of the approaches are discussed and the survey is concluded with a brief discussion of the future of learning representation of graph data.",
-    "title": "Learning Representations of Graph Data -- A Survey"
-  },
-  {
-    "arxiv": "1909.02073",
-    "counts": {
-      "NAM": 1,
-      "SE": 1,
-      "SME": 1
-    },
-    "published": "2019-09-04T19:50:31Z",
-    "summary": "Dripping, jetting and tip streaming have been studied up to a certain point separately by both fluid mechanics and microfluidics communities, the former focusing on fundamental aspects while the latter on applications. Here, we intend to review this field from a global perspective by considering and linking the two sides of the problem. In the first part, we present the theoretical model used to study interfacial flows arising in droplet-based microfluidics, paying attention to three elements commonly present in applications: viscoelasticity, electric fields and surfactants. We review both classical and current results about the stability of jets affected by these elements. Mechanisms leading to the breakup of jets to produce drops are reviewed as well, including some recent advances in this field. We also consider the relatively scarce theoretical studies on the emergence and stability of tip streaming flows. In the second part of this review, we focus on axisymmetric microfluidic configurations which can operate on the dripping and jetting modes either in a direct (standard) way or via tip streaming. We present the dimensionless parameters characterizing these configurations, the scaling laws which allow predicting the size of the resulting droplets and bubbles, as well as those delimiting the parameter windows where tip streaming can be found. Special attention is paid to electrospray and flow focusing, two of the techniques more frequently used in continuous drop production microfluidics. We aim to connect experimental observations described in this section of topics with fundamental and general aspects described in the first part of the review. This work closes with some prospects at both fundamental and practical levels.",
-    "title": "Dripping, jetting and tip streaming"
-  },
-  {
     "arxiv": "1909.11042",
     "counts": {
       "HolE": 1,
@@ -801,17 +741,6 @@
     "published": "2020-05-15T17:15:45Z",
     "summary": "Recently, link prediction algorithms based on neural embeddings have gained tremendous popularity in the Semantic Web community, and are extensively used for knowledge graph completion. While algorithmic advances have strongly focused on efficient ways of learning embeddings, fewer attention has been drawn to the different ways their performance and robustness can be evaluated. In this work we propose an open-source evaluation pipeline, which benchmarks the accuracy of neural embeddings in situations where knowledge graphs may experience semantic and structural changes. We define relation-centric connectivity measures that allow us to connect the link prediction capacity to the structure of the knowledge graph. Such an evaluation pipeline is especially important to simulate the accuracy of embeddings for knowledge graphs that are expected to be frequently updated.",
     "title": "Benchmarking neural embeddings for link prediction in knowledge graphs under semantic and structural changes"
-  },
-  {
-    "arxiv": "2008.12646",
-    "counts": {
-      "NTN": 1,
-      "SACN": 1,
-      "SE": 3
-    },
-    "published": "2020-08-26T09:56:30Z",
-    "summary": "Graphs have been widely used to represent complex data in many applications, such as e-commerce, social networks, and bioinformatics. Efficient and effective analysis of graph data is important for graph-based applications. However, most graph analysis tasks are combinatorial optimization (CO) problems, which are NP-hard. Recent studies have focused a lot on the potential of using machine learning (ML) to solve graph-based CO problems. Using ML- based CO methods, a graph has to be represented in numerical vectors, which is known as graph embedding. In this survey, we provide a thorough overview of recent graph embedding methods that have been used to solve CO problems. Most graph embedding methods have two stages: graph preprocessing and ML model learning. This survey classifies graph embedding works from the perspective of graph preprocessing tasks and ML models. Furthermore, this survey summarizes recent graph-based CO methods that exploit graph embedding. In particular, graph embedding can be employed as part of classification techniques or can be combined with search methods to find solutions to CO problems. The survey ends with several remarks on future research directions.",
-    "title": "Graph Embedding for Combinatorial Optimization: A Survey"
   },
   {
     "arxiv": "2011.02260",

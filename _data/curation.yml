@@ -8,6 +8,9 @@ hits:
   - arxiv: "2003.08001"
   - arxiv: "1903.12287"
     type: benchmark
+  - arxiv: "1708.06816"
+    type: benchmark
+  - arxiv: "1901.03425"
 irrelevant:
   - arxiv: "0705.1792"
   - arxiv: "0709.0380"
@@ -15,6 +18,10 @@ irrelevant:
   - arxiv: physics/0408030
   - arxiv: nucl-th/0703004
   - arxiv: math/9704221
+  - arxiv: "1807.08484"
+  - arxiv: "1906.02989"
+  - arxiv: "1909.02073"
+  - arxiv: "2008.12646"
 novel:
   - arxiv: "2103.03642"
     model: TACT
