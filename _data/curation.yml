@@ -20,6 +20,9 @@ hits:
     type: benchmark
     topic: gnn
 irrelevant:
+  - arxiv: "1709.05584"
+    type: survey
+    reason: it's about representation learning, not KGEMs
   - arxiv: "0705.1792"
   - arxiv: "0709.0380"
   - arxiv: "0709.4087"
@@ -35,6 +38,10 @@ irrelevant:
   - arxiv: "1607.08692"
   - arxiv: "1609.08084"
   - arxiv: "1703.02261"
+  - arxiv: "1709.07401"
+  - arxiv: "1711.08752"
+    type: survey
+    reason: it's about representation learning, not KGEMs
 novel:
   - arxiv: "2103.03642"
     model: TACT

@@ -748,36 +748,6 @@
     "title": "Statistical inference on random dot product graphs: a survey"
   },
   {
-    "arxiv": "1709.05584",
-    "counts": {
-      "GeomE": 1,
-      "GraphSAGE": 1,
-      "LINE": 1,
-      "MuRP": 1,
-      "SDNE": 1,
-      "SE": 1,
-      "TransA": 1,
-      "metapath2vec": 1,
-      "node2vec": 1
-    },
-    "published": "2017-09-17T00:19:33Z",
-    "summary": "Machine learning on graphs is an important and ubiquitous task with applications ranging from drug design to friendship recommendation in social networks. The primary challenge in this domain is finding a way to represent, or encode, graph structure so that it can be easily exploited by machine learning models. Traditionally, machine learning approaches relied on user-defined heuristics to extract features encoding structural information about a graph (e.g., degree statistics or kernel functions). However, recent years have seen a surge in approaches that automatically learn to encode graph structure into low-dimensional embeddings, using techniques based on deep learning and nonlinear dimensionality reduction. Here we provide a conceptual review of key advancements in this area of representation learning on graphs, including matrix factorization-based methods, random-walk based algorithms, and graph neural networks. We review methods to embed individual nodes as well as approaches to embed entire (sub)graphs. In doing so, we develop a unified framework to describe these recent approaches, and we highlight a number of important applications and directions for future work.",
-    "title": "Representation Learning on Graphs: Methods and Applications"
-  },
-  {
-    "arxiv": "1709.07401",
-    "counts": {
-      "ComplEx": 1,
-      "ConvE": 1,
-      "LINE": 1,
-      "NAM": 1,
-      "SE": 1
-    },
-    "published": "2017-09-21T16:35:51Z",
-    "summary": "We study a unique network dataset including periodic surveys and electronic logs of dyadic contacts via smartphones. The participants were a sample of freshmen entering university in the Fall 2011. Their opinions on a variety of political and social issues and lists of activities on campus were regularly recorded at the beginning and end of each semester for the first three years of study. We identify a behavioral network defined by call and text data, and a cognitive network based on friendship nominations in ego-network surveys. Both networks are limited to study participants. Since a wide range of attributes on each node were collected in self-reports, we refer to these networks as attribute-rich networks. We study whether student preferences for certain attributes of friends can predict formation and dissolution of edges in both networks. We introduce a method for computing student preferences for different attributes which we use to predict link formation and dissolution. We then rank these attributes according to their importance for making predictions. We find that personal preferences, in particular political views, and preferences for common activities help predict link formation and dissolution in both the behavioral and cognitive networks.",
-    "title": "Influence of Personal Preferences on Link Dynamics in Social Networks"
-  },
-  {
     "arxiv": "1710.03059",
     "counts": {
       "ComplEx": 1,
@@ -789,19 +759,6 @@
     "published": "2017-10-09T12:43:56Z",
     "summary": "We propose Embedding Propagation (EP), an unsupervised learning framework for graph-structured data. EP learns vector representations of graphs by passing two types of messages between neighboring nodes. Forward messages consist of label representations such as representations of words and other attributes associated with the nodes. Backward messages consist of gradients that result from aggregating the label representations and applying a reconstruction loss. Node representations are finally computed from the representation of their labels. With significantly fewer parameters and hyperparameters an instance of EP is competitive with and often outperforms state of the art unsupervised and semi-supervised learning methods on a range of benchmark data sets.",
     "title": "Learning Graph Representations with Embedding Propagation"
-  },
-  {
-    "arxiv": "1711.08752",
-    "counts": {
-      "HypER": 1,
-      "LINE": 1,
-      "SDNE": 1,
-      "SE": 1,
-      "node2vec": 1
-    },
-    "published": "2017-11-23T15:58:08Z",
-    "summary": "Network embedding assigns nodes in a network to low-dimensional representations and effectively preserves the network structure. Recently, a significant amount of progresses have been made toward this emerging network analysis paradigm. In this survey, we focus on categorizing and then reviewing the current development on network embedding methods, and point out its future research directions. We first summarize the motivation of network embedding. We discuss the classical graph embedding algorithms and their relationship with network embedding. Afterwards and primarily, we provide a comprehensive overview of a large number of network embedding methods in a systematic manner, covering the structure- and property-preserving network embedding methods, the network embedding methods with side information and the advanced information preserving network embedding methods. Moreover, several evaluation approaches for network embedding and some useful online resources, including the network data sets and softwares, are reviewed, too. Finally, we discuss the framework of exploiting these network embedding methods to build an effective system and point out some potential future directions.",
-    "title": "A Survey on Network Embedding"
   },
   {
     "arxiv": "1802.03638",
