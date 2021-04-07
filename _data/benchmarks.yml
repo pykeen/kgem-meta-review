@@ -1,3 +1,17 @@
+- title: "On Training Knowledge Graph Embedding Models"
+  link: https://doi.org/10.3390/info12040147
+  author: Mohamed
+  year: 2021
+  models:
+    - TransE
+    - DistMult
+    - ComplEx
+    - TriModel
+  datasets:
+    - YAGO3-10
+    - FB15k-237
+    - WN18RR
+    - NELL239
 - title: "A Survey on Knowledge Graph Embeddings for Link Prediction"
   author: Wang
   year: 2021
