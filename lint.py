@@ -10,7 +10,7 @@ SURVEYS_PATH = os.path.join(HERE, '_data', 'surveys.yml')
 def _sort(path):
     with open(path) as file:
         data = yaml.safe_load(file)
-    data = sorted(data, key=lambda x: x['year'])
+    data = sorted(data, key=lambda x: x['year'], reverse=True)
     with open(path, 'w') as file:
         yaml.safe_dump(data, file)
 

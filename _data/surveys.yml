@@ -1,45 +1,20 @@
-- arxiv: '1503.00759'
-  author: Nickel
-  link: https://arxiv.org/pdf/1503.00759.pdf
-  title: A Review of Relational Machine Learning for Knowledge Graphs
-  year: 2015
-- author: Wang
-  link: https://persagen.com/files/misc/Wang2017Knowledge.pdf
-  title: 'Knowledge Graph Embedding: A Survey of Approaches and Applications'
-  year: 2017
-- arxiv: '1707.01475'
-  author: Trouillon
-  models:
-  - ComplEx
-  - HolE
-  title: 'Complex and Holographic Embeddings of Knowledge Graphs: A Comparison'
-  year: 2017
-- arxiv: '1709.07604'
-  author: Cai
+- arxiv: '2101.06569'
+  author: Chen
   models:
   - TransE
-  - TKRL
-  - TransR
-  - CTransR
-  - TransH
-  - SePLi
-  - TransD
-  - TranSparse
-  - m-TransH
-  - DKRL
-  - ManifoldE
-  - TransA
-  - puTransE
-  - KGE-LDA
-  - Structured Embedding
-  - SME linear
-  - SME bilinear
-  - SSP
-  - NTN
+  - RotatE
+  - QuatE
+  - MuRP
+  - RESCAL
   - HolE
-  - MTransE
-  title: 'A Comprehensive Survey of Graph Embedding: Problems, Techniques and Applications'
-  year: 2018
+  - DistMult
+  - ComplEx
+  - ANALOGY
+  - SME
+  - NRN
+  - ER-MLP
+  title: A Literature Review of Recent Graph Embedding Techniques for Biomedical Data
+  year: 2021
 - arxiv: '2002.00388'
   author: Ji
   link: https://arxiv.org/pdf/2002.00388
@@ -150,20 +125,45 @@
   title: A survey of embedding models of entities and relationships for knowledge
     graph completion
   year: 2020
-- arxiv: '2101.06569'
-  author: Chen
+- arxiv: '1709.07604'
+  author: Cai
   models:
   - TransE
-  - RotatE
-  - QuatE
-  - MuRP
-  - RESCAL
+  - TKRL
+  - TransR
+  - CTransR
+  - TransH
+  - SePLi
+  - TransD
+  - TranSparse
+  - m-TransH
+  - DKRL
+  - ManifoldE
+  - TransA
+  - puTransE
+  - KGE-LDA
+  - Structured Embedding
+  - SME linear
+  - SME bilinear
+  - SSP
+  - NTN
   - HolE
-  - DistMult
+  - MTransE
+  title: 'A Comprehensive Survey of Graph Embedding: Problems, Techniques and Applications'
+  year: 2018
+- author: Wang
+  link: https://persagen.com/files/misc/Wang2017Knowledge.pdf
+  title: 'Knowledge Graph Embedding: A Survey of Approaches and Applications'
+  year: 2017
+- arxiv: '1707.01475'
+  author: Trouillon
+  models:
   - ComplEx
-  - ANALOGY
-  - SME
-  - NRN
-  - ER-MLP
-  title: A Literature Review of Recent Graph Embedding Techniques for Biomedical Data
-  year: 2021
+  - HolE
+  title: 'Complex and Holographic Embeddings of Knowledge Graphs: A Comparison'
+  year: 2017
+- arxiv: '1503.00759'
+  author: Nickel
+  link: https://arxiv.org/pdf/1503.00759.pdf
+  title: A Review of Relational Machine Learning for Knowledge Graphs
+  year: 2015

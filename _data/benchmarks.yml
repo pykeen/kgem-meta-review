@@ -1,27 +1,36 @@
-- arxiv: '1911.08776'
-  author: Yao
+- author: Mohamed
   datasets:
-  - CS-Wiki
-  - Java-KF
-  - DS-KF
+  - YAGO3-10
+  - FB15k-237
+  - WN18RR
+  - NELL239
+  link: https://doi.org/10.3390/info12040147
   models:
   - TransE
   - DistMult
   - ComplEx
-  - SimplE
-  - TuckER
-  - RotatE
-  title: JOINT EMBEDDING LEARNING OF EDUCATIONAL KNOWLEDGE GRAPHS
-  year: 2019
-- arxiv: '1903.12287'
-  author: Lerer
+  - TriModel
+  title: On Training Knowledge Graph Embedding Models
+  year: 2021
+- author: Wang
   datasets:
   - FB15k
+  - FB15k-237
+  link: https://www.mdpi.com/2073-8994/13/3/485/pdf
   models:
+  - Bilinear + TR
   - ComplEx
-  - TransE
-  title: 'PyTorch-BigGraph: A Large-scale Graph Embedding System'
-  year: 2019
+  - ConvE
+  - DistMult
+  - HAKE
+  - HypER
+  - LiteralE
+  - RotatE
+  - RW-LMLM
+  - SACN
+  - SimplE
+  title: A Survey on Knowledge Graph Embeddings for Link Prediction
+  year: 2021
 - author: Ruffinelli
   datasets:
   - FB15k-237
@@ -147,36 +156,27 @@
   title: 'Realistic Re-evaluation of Knowledge Graph Completion Methods: An Experimental
     Study'
   year: 2020
-- author: Mohamed
+- arxiv: '1911.08776'
+  author: Yao
   datasets:
-  - YAGO3-10
-  - FB15k-237
-  - WN18RR
-  - NELL239
-  link: https://doi.org/10.3390/info12040147
+  - CS-Wiki
+  - Java-KF
+  - DS-KF
   models:
   - TransE
   - DistMult
   - ComplEx
-  - TriModel
-  title: On Training Knowledge Graph Embedding Models
-  year: 2021
-- author: Wang
+  - SimplE
+  - TuckER
+  - RotatE
+  title: JOINT EMBEDDING LEARNING OF EDUCATIONAL KNOWLEDGE GRAPHS
+  year: 2019
+- arxiv: '1903.12287'
+  author: Lerer
   datasets:
   - FB15k
-  - FB15k-237
-  link: https://www.mdpi.com/2073-8994/13/3/485/pdf
   models:
-  - Bilinear + TR
   - ComplEx
-  - ConvE
-  - DistMult
-  - HAKE
-  - HypER
-  - LiteralE
-  - RotatE
-  - RW-LMLM
-  - SACN
-  - SimplE
-  title: A Survey on Knowledge Graph Embeddings for Link Prediction
-  year: 2021
+  - TransE
+  title: 'PyTorch-BigGraph: A Large-scale Graph Embedding System'
+  year: 2019
