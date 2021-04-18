@@ -150,3 +150,30 @@
     - SimplE
     - TuckER
     - RotatE
+- arxiv: "2003.08001"
+  title: "Realistic Re-evaluation of Knowledge Graph Completion Methods: An Experimental Study"
+  author: Akrami
+  year: 2020
+  models:
+    - TransE
+    - ComplEx
+    - TuckER
+    - DistMult
+    - ConvE
+    - RotatE
+    - AMIE
+  datasets:
+    - FB15k
+    - FB15k-237
+    - WN18
+    - WN18-RR
+    - YAGO3-10
+- arxiv: "1903.12287"
+  title: "PyTorch-BigGraph: A Large-scale Graph Embedding System"
+  author: Lerer
+  year: 2019
+  models:
+    - ComplEx
+    - TransE
+  datasets:
+    - FB15k

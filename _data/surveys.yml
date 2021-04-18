@@ -122,3 +122,46 @@
     - QuatE
     - TransE-Comp
     - Bilinear-Comp
+- title: "A Comprehensive Survey of Graph Embedding: Problems, Techniques and Applications"
+  author: Cai
+  year: 2018
+  arxiv: "1709.07604"
+  models:
+    - TransE
+    - TKRL
+    - TransR
+    - CTransR
+    - TransH
+    - SePLi
+    - TransD
+    - TranSparse
+    - m-TransH
+    - DKRL
+    - ManifoldE
+    - TransA
+    - puTransE
+    - KGE-LDA
+    - Structured Embedding
+    - SME linear
+    - SME bilinear
+    - SSP
+    - NTN
+    - HolE
+    - MTransE
+- arxiv: "2101.06569"
+  title: "A Literature Review of Recent Graph Embedding Techniques for Biomedical Data"
+  author: Chen
+  year: 2021
+  models:
+    - TransE
+    - RotatE
+    - QuatE
+    - MuRP
+    - RESCAL
+    - HolE
+    - DistMult
+    - ComplEx
+    - ANALOGY
+    - SME
+    - NRN
+    - ER-MLP

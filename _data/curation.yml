@@ -1,12 +1,4 @@
 hits:
-  - arxiv: "1909.03794"
-  - arxiv: "1910.12507"
-  - arxiv: "2003.07743"
-  - arxiv: "1709.07604"
-  - arxiv: "2101.06569"
-  - arxiv: "2003.08001"
-  - arxiv: "1903.12287"
-    type: benchmark
   - arxiv: "1708.06816"
     type: benchmark
   - arxiv: "1901.03425"
@@ -18,6 +10,11 @@ hits:
   - arxiv: "1903.11406"
     type: benchmark
     notes: also includes new model
+meh:
+  - arxiv: "1910.12507"
+    comment: about models that handle literals
+  - arxiv: "2003.07743"
+    comment: on attributed and GNN stuff
 irrelevant:
   - arxiv: "2003.05730"
     reason: adversarial attack survey
@@ -61,6 +58,8 @@ irrelevant:
     type: survey
     reason: it's about representation learning, not KGEMs
 novel:
+  - arxiv: "1909.03794"
+    model: TransW
   - model: TNTComplEx
     arxiv: "2004.04926"
   - arxiv: "2001.00461"
