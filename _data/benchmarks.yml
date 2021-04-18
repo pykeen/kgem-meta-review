@@ -46,6 +46,34 @@
   datasets:
     - FB15k-237
     - WN18
+- arxiv: "2009.07810"
+  title: "CODEX: A Comprehensive Knowledge Graph Completion Benchmark"
+  author: Safavi
+  year: 2020
+  link: https://arxiv.org/abs/2009.07810
+  github: https://github.com/tsafavi/codex
+  models:
+    - RESCAL
+    - TransE
+    - ComplEx
+    - ConvE
+    - TuckER
+  datasets:
+    - CoDEx-S
+    - CoDEx-M
+    - CoDEx-L
+- title: "Benchmarking neural embeddings for link prediction in knowledge graphs under semantic and structural changes"
+  arxiv: "2005.07654"
+  author: Agibetov
+  year: 2020
+  models:
+    - DistMult
+    - ComplEx
+  datasets:
+    - WN11
+    - FB15k-237
+    - UMLS
+    - BIO-KG
 - arxiv: "2002.00819"
   title: "Knowledge Graph Embedding for Link Prediction: A Comparative Analysis"
   author: Rossi
@@ -107,4 +135,18 @@
     - WN18
     - WN18RR
     - YAGO3-10
-
+- arxiv: "1911.08776"
+  title: "JOINT EMBEDDING LEARNING OF EDUCATIONAL KNOWLEDGE GRAPHS"
+  author: Yao
+  year: 2019
+  datasets:
+    - CS-Wiki
+    - Java-KF
+    - DS-KF
+  models:
+    - TransE
+    - DistMult
+    - ComplEx
+    - SimplE
+    - TuckER
+    - RotatE

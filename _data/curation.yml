@@ -1,13 +1,4 @@
 hits:
-  - arxiv: "2009.07810"
-    type: benchmark
-    subtype: new dataset
-  - arxiv: "2005.07654"
-    type: benchmark
-  - arxiv: "1707.01475"
-    type: survey
-    summary: HolE and ComplEx are the same in some situations
-  - arxiv: "1703.08098"
   - arxiv: "1909.03794"
   - arxiv: "1910.12507"
   - arxiv: "2003.07743"
@@ -19,9 +10,6 @@ hits:
   - arxiv: "1708.06816"
     type: benchmark
   - arxiv: "1901.03425"
-  - arxiv: "1911.08776"
-    type: benchmark
-    subtype: new data set
   - arxiv: "2006.13774"
     type: benchmark
   - arxiv: "2102.13303"

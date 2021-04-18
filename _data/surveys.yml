@@ -57,3 +57,68 @@
   year: 2015
   arxiv: "1503.00759"
   link: https://arxiv.org/pdf/1503.00759.pdf
+- arxiv: "1707.01475"
+  title: "Complex and Holographic Embeddings of Knowledge Graphs: A Comparison"
+  author: Trouillon
+  year: 2017
+  models:
+    - ComplEx
+    - HolE
+- arxiv: "1703.08098"
+  title: "A survey of embedding models of entities and relationships for knowledge graph completion"
+  author: Nguyen
+  year: 2020
+  comment: "This survey contains an extensive compilation of results from previous papers"
+  datasets:
+    - FB15k
+    - FB15k-237
+    - WN18
+    - WN18-RR
+  models:
+    - Unstructured Model
+    - Structured Embedding
+    - TransE
+    - TarnsH
+    - TransR
+    - STransE
+    - TranSparse
+    - TranSparse-DT
+    - ITransF
+    - TorusE
+    - TransG
+    - InteractE
+    - CapsE
+    - CTransR
+    - TransD
+    - PTransE-RNN
+    - RTransE
+    - PTransE-Add
+    - TransE-Comp
+    - TransE-NMM
+    - ReInceptionE
+    - R-GCN
+    - SACN
+    - KBGAT
+    - 1ppTransD
+    - Bilinear
+    - DistMult
+    - SimplE
+    - SME
+    - TuckER
+    - HolE
+    - NTN
+    - ER-MLP
+    - ConvE
+    - ConvKB
+    - ComplEx
+    - ComplEx-N3
+    - ProjE
+    - KG2E
+    - TATEC
+    - RSTE
+    - ANALOGY
+    - Dihedral
+    - RotatE
+    - QuatE
+    - TransE-Comp
+    - Bilinear-Comp
