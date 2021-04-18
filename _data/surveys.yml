@@ -1,167 +1,169 @@
-- title: "A Survey on Knowledge Graphs: Representation, Acquisition and Applications"
+- arxiv: '1503.00759'
+  author: Nickel
+  link: https://arxiv.org/pdf/1503.00759.pdf
+  title: A Review of Relational Machine Learning for Knowledge Graphs
+  year: 2015
+- author: Wang
+  link: https://persagen.com/files/misc/Wang2017Knowledge.pdf
+  title: 'Knowledge Graph Embedding: A Survey of Approaches and Applications'
+  year: 2017
+- arxiv: '1707.01475'
+  author: Trouillon
+  models:
+  - ComplEx
+  - HolE
+  title: 'Complex and Holographic Embeddings of Knowledge Graphs: A Comparison'
+  year: 2017
+- arxiv: '1709.07604'
+  author: Cai
+  models:
+  - TransE
+  - TKRL
+  - TransR
+  - CTransR
+  - TransH
+  - SePLi
+  - TransD
+  - TranSparse
+  - m-TransH
+  - DKRL
+  - ManifoldE
+  - TransA
+  - puTransE
+  - KGE-LDA
+  - Structured Embedding
+  - SME linear
+  - SME bilinear
+  - SSP
+  - NTN
+  - HolE
+  - MTransE
+  title: 'A Comprehensive Survey of Graph Embedding: Problems, Techniques and Applications'
+  year: 2018
+- arxiv: '2002.00388'
   author: Ji
-  year: 2020
-  arxiv: "2002.00388"
   link: https://arxiv.org/pdf/2002.00388
   models:
-    - HAKE
-    - ComplEx
-    - RotatE
-    - QuatE
-    - ManifoldE
-    - TorusE
-    - DihEdral
-    - MuRP
-    - AttH
-    - KG2E
-    - TransG
-    - TransE
-    - TransR
-    - TransH
-    - TransA
-    - TransF
-    - ITransF
-    - TransAt
-    - TransD
-    - TransM
-    - TranSparse
-    - TATEC
-    - ANALOGY
-    - CrossE
-    - SME
-    - DistMult
-    - HolE
-    - HolEx
-    - SE
-    - SimplE
-    - RESCAL
-    - LFM
-    - TickER
-    - LowFER
-    - ER-MLP
-    - NAM
-    - ConvE
-    - ConvKB
-    - SACN
-    - NTN
-- title: "A Survey on Knowledge Graph Embedding: Approaches, Applications and Benchmarks"
-  author: Dai
+  - HAKE
+  - ComplEx
+  - RotatE
+  - QuatE
+  - ManifoldE
+  - TorusE
+  - DihEdral
+  - MuRP
+  - AttH
+  - KG2E
+  - TransG
+  - TransE
+  - TransR
+  - TransH
+  - TransA
+  - TransF
+  - ITransF
+  - TransAt
+  - TransD
+  - TransM
+  - TranSparse
+  - TATEC
+  - ANALOGY
+  - CrossE
+  - SME
+  - DistMult
+  - HolE
+  - HolEx
+  - SE
+  - SimplE
+  - RESCAL
+  - LFM
+  - TickER
+  - LowFER
+  - ER-MLP
+  - NAM
+  - ConvE
+  - ConvKB
+  - SACN
+  - NTN
+  title: 'A Survey on Knowledge Graphs: Representation, Acquisition and Applications'
   year: 2020
+- author: Dai
   link: https://www.mdpi.com/2079-9292/9/5/750/pdf
-- title: "Knowledge Graph Embedding: A Survey of Approaches and Applications"
-  author: Wang
-  year: 2017
-  link: https://persagen.com/files/misc/Wang2017Knowledge.pdf
-- title: "A Review of Relational Machine Learning for Knowledge Graphs"
-  author: Nickel
-  year: 2015
-  arxiv: "1503.00759"
-  link: https://arxiv.org/pdf/1503.00759.pdf
-- arxiv: "1707.01475"
-  title: "Complex and Holographic Embeddings of Knowledge Graphs: A Comparison"
-  author: Trouillon
-  year: 2017
-  models:
-    - ComplEx
-    - HolE
-- arxiv: "1703.08098"
-  title: "A survey of embedding models of entities and relationships for knowledge graph completion"
-  author: Nguyen
+  title: 'A Survey on Knowledge Graph Embedding: Approaches, Applications and Benchmarks'
   year: 2020
-  comment: "This survey contains an extensive compilation of results from previous papers"
+- arxiv: '1703.08098'
+  author: Nguyen
+  comment: This survey contains an extensive compilation of results from previous
+    papers
   datasets:
-    - FB15k
-    - FB15k-237
-    - WN18
-    - WN18-RR
+  - FB15k
+  - FB15k-237
+  - WN18
+  - WN18-RR
   models:
-    - Unstructured Model
-    - Structured Embedding
-    - TransE
-    - TarnsH
-    - TransR
-    - STransE
-    - TranSparse
-    - TranSparse-DT
-    - ITransF
-    - TorusE
-    - TransG
-    - InteractE
-    - CapsE
-    - CTransR
-    - TransD
-    - PTransE-RNN
-    - RTransE
-    - PTransE-Add
-    - TransE-Comp
-    - TransE-NMM
-    - ReInceptionE
-    - R-GCN
-    - SACN
-    - KBGAT
-    - 1ppTransD
-    - Bilinear
-    - DistMult
-    - SimplE
-    - SME
-    - TuckER
-    - HolE
-    - NTN
-    - ER-MLP
-    - ConvE
-    - ConvKB
-    - ComplEx
-    - ComplEx-N3
-    - ProjE
-    - KG2E
-    - TATEC
-    - RSTE
-    - ANALOGY
-    - Dihedral
-    - RotatE
-    - QuatE
-    - TransE-Comp
-    - Bilinear-Comp
-- title: "A Comprehensive Survey of Graph Embedding: Problems, Techniques and Applications"
-  author: Cai
-  year: 2018
-  arxiv: "1709.07604"
-  models:
-    - TransE
-    - TKRL
-    - TransR
-    - CTransR
-    - TransH
-    - SePLi
-    - TransD
-    - TranSparse
-    - m-TransH
-    - DKRL
-    - ManifoldE
-    - TransA
-    - puTransE
-    - KGE-LDA
-    - Structured Embedding
-    - SME linear
-    - SME bilinear
-    - SSP
-    - NTN
-    - HolE
-    - MTransE
-- arxiv: "2101.06569"
-  title: "A Literature Review of Recent Graph Embedding Techniques for Biomedical Data"
+  - Unstructured Model
+  - Structured Embedding
+  - TransE
+  - TarnsH
+  - TransR
+  - STransE
+  - TranSparse
+  - TranSparse-DT
+  - ITransF
+  - TorusE
+  - TransG
+  - InteractE
+  - CapsE
+  - CTransR
+  - TransD
+  - PTransE-RNN
+  - RTransE
+  - PTransE-Add
+  - TransE-Comp
+  - TransE-NMM
+  - ReInceptionE
+  - R-GCN
+  - SACN
+  - KBGAT
+  - 1ppTransD
+  - Bilinear
+  - DistMult
+  - SimplE
+  - SME
+  - TuckER
+  - HolE
+  - NTN
+  - ER-MLP
+  - ConvE
+  - ConvKB
+  - ComplEx
+  - ComplEx-N3
+  - ProjE
+  - KG2E
+  - TATEC
+  - RSTE
+  - ANALOGY
+  - Dihedral
+  - RotatE
+  - QuatE
+  - TransE-Comp
+  - Bilinear-Comp
+  title: A survey of embedding models of entities and relationships for knowledge
+    graph completion
+  year: 2020
+- arxiv: '2101.06569'
   author: Chen
-  year: 2021
   models:
-    - TransE
-    - RotatE
-    - QuatE
-    - MuRP
-    - RESCAL
-    - HolE
-    - DistMult
-    - ComplEx
-    - ANALOGY
-    - SME
-    - NRN
-    - ER-MLP
+  - TransE
+  - RotatE
+  - QuatE
+  - MuRP
+  - RESCAL
+  - HolE
+  - DistMult
+  - ComplEx
+  - ANALOGY
+  - SME
+  - NRN
+  - ER-MLP
+  title: A Literature Review of Recent Graph Embedding Techniques for Biomedical Data
+  year: 2021

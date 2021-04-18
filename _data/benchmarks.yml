@@ -1,179 +1,182 @@
-- title: "On Training Knowledge Graph Embedding Models"
-  link: https://doi.org/10.3390/info12040147
-  author: Mohamed
-  year: 2021
-  models:
-    - TransE
-    - DistMult
-    - ComplEx
-    - TriModel
+- arxiv: '1911.08776'
+  author: Yao
   datasets:
-    - YAGO3-10
-    - FB15k-237
-    - WN18RR
-    - NELL239
-- title: "A Survey on Knowledge Graph Embeddings for Link Prediction"
-  author: Wang
+  - CS-Wiki
+  - Java-KF
+  - DS-KF
+  models:
+  - TransE
+  - DistMult
+  - ComplEx
+  - SimplE
+  - TuckER
+  - RotatE
+  title: JOINT EMBEDDING LEARNING OF EDUCATIONAL KNOWLEDGE GRAPHS
+  year: 2019
+- arxiv: '1903.12287'
+  author: Lerer
+  datasets:
+  - FB15k
+  models:
+  - ComplEx
+  - TransE
+  title: 'PyTorch-BigGraph: A Large-scale Graph Embedding System'
+  year: 2019
+- author: Ruffinelli
+  datasets:
+  - FB15k-237
+  - WN18
+  github: uma-pi1/kge
+  link: https://openreview.net/forum?id=BkxSmlBFvr
+  models:
+  - RESCAL
+  - TransE
+  - DistMult
+  - ComplEx
+  - ConvE
+  title: You CAN Teach an Old Dog New Tricks! On Training Knowledge Graph Embeddings
+  venue: International Conference on Learning Representations
+  year: 2020
+- arxiv: '2009.07810'
+  author: Safavi
+  datasets:
+  - CoDEx-S
+  - CoDEx-M
+  - CoDEx-L
+  github: https://github.com/tsafavi/codex
+  link: https://arxiv.org/abs/2009.07810
+  models:
+  - RESCAL
+  - TransE
+  - ComplEx
+  - ConvE
+  - TuckER
+  title: 'CODEX: A Comprehensive Knowledge Graph Completion Benchmark'
+  year: 2020
+- arxiv: '2005.07654'
+  author: Agibetov
+  datasets:
+  - WN11
+  - FB15k-237
+  - UMLS
+  - BIO-KG
+  models:
+  - DistMult
+  - ComplEx
+  title: Benchmarking neural embeddings for link prediction in knowledge graphs under
+    semantic and structural changes
+  year: 2020
+- arxiv: '2002.00819'
+  author: Rossi
+  datasets:
+  - FB15k
+  - FB15k-237
+  - WN18
+  - WN18RR
+  - YAGO3-10
+  github: merialdo/research.lpca
+  link: https://arxiv.org/abs/2002.00819
+  models:
+  - AnyBURL
+  - DistMult
+  - ComplEx
+  - ANALOGY
+  - SimplE
+  - HolE
+  - TuckER
+  - TransE
+  - STransE
+  - TorusE
+  - RotatE
+  - ConvE
+  - ConvKB
+  - ConvR
+  - CaspE
+  - RSN
+  title: 'Knowledge Graph Embedding for Link Prediction: A Comparative Analysis'
+  year: 2020
+- arxiv: '2006.13365'
+  author: Ali
+  datasets:
+  - FB15k
+  - FB15k-237
+  - WN18
+  - WN18RR
+  - YAGO3-10
+  github: pykeen/benchmarking
+  link: https://arxiv.org/abs/2006.13365
+  models:
+  - ComplEx
+  - ConvE
+  - ConvKB
+  - DistMult
+  - ER-MLP
+  - HolE
+  - KG2E
+  - NTN
+  - ProjE
+  - RESCAL
+  - RotatE
+  - Structured Embedding
+  - SimplE
+  - TransE
+  - TransD
+  - TransH
+  - TransR
+  - Unstructured Model
+  - TuckER
+  title: 'Bringing Light Into the Dark: A Large-scale Evaluation of Knowledge Graph
+    Embedding Models Under a Unified Framework'
+  year: 2020
+- arxiv: '2003.08001'
+  author: Akrami
+  datasets:
+  - FB15k
+  - FB15k-237
+  - WN18
+  - WN18-RR
+  - YAGO3-10
+  models:
+  - TransE
+  - ComplEx
+  - TuckER
+  - DistMult
+  - ConvE
+  - RotatE
+  - AMIE
+  title: 'Realistic Re-evaluation of Knowledge Graph Completion Methods: An Experimental
+    Study'
+  year: 2020
+- author: Mohamed
+  datasets:
+  - YAGO3-10
+  - FB15k-237
+  - WN18RR
+  - NELL239
+  link: https://doi.org/10.3390/info12040147
+  models:
+  - TransE
+  - DistMult
+  - ComplEx
+  - TriModel
+  title: On Training Knowledge Graph Embedding Models
   year: 2021
+- author: Wang
+  datasets:
+  - FB15k
+  - FB15k-237
   link: https://www.mdpi.com/2073-8994/13/3/485/pdf
   models:
-    - Bilinear + TR
-    - ComplEx
-    - ConvE
-    - DistMult
-    - HAKE
-    - HypER
-    - LiteralE
-    - RotatE
-    - RW-LMLM
-    - SACN
-    - SimplE
-  datasets:
-    - FB15k
-    - FB15k-237
-- title: You CAN Teach an Old Dog New Tricks! On Training Knowledge Graph Embeddings
-  author: Ruffinelli
-  year: 2020
-  venue: International Conference on Learning Representations
-  link: https://openreview.net/forum?id=BkxSmlBFvr
-  github: uma-pi1/kge
-  models:
-    - RESCAL
-    - TransE
-    - DistMult
-    - ComplEx
-    - ConvE
-  datasets:
-    - FB15k-237
-    - WN18
-- arxiv: "2009.07810"
-  title: "CODEX: A Comprehensive Knowledge Graph Completion Benchmark"
-  author: Safavi
-  year: 2020
-  link: https://arxiv.org/abs/2009.07810
-  github: https://github.com/tsafavi/codex
-  models:
-    - RESCAL
-    - TransE
-    - ComplEx
-    - ConvE
-    - TuckER
-  datasets:
-    - CoDEx-S
-    - CoDEx-M
-    - CoDEx-L
-- title: "Benchmarking neural embeddings for link prediction in knowledge graphs under semantic and structural changes"
-  arxiv: "2005.07654"
-  author: Agibetov
-  year: 2020
-  models:
-    - DistMult
-    - ComplEx
-  datasets:
-    - WN11
-    - FB15k-237
-    - UMLS
-    - BIO-KG
-- arxiv: "2002.00819"
-  title: "Knowledge Graph Embedding for Link Prediction: A Comparative Analysis"
-  author: Rossi
-  year: 2020
-  link: https://arxiv.org/abs/2002.00819
-  github: merialdo/research.lpca
-  models:
-    - AnyBURL
-    - DistMult
-    - ComplEx
-    - ANALOGY
-    - SimplE
-    - HolE
-    - TuckER
-    - TransE
-    - STransE
-    - TorusE
-    - RotatE
-    - ConvE
-    - ConvKB
-    - ConvR
-    - CaspE
-    - RSN
-  datasets:
-    - FB15k
-    - FB15k-237
-    - WN18
-    - WN18RR
-    - YAGO3-10
-- arxiv: "2006.13365"
-  title: "Bringing Light Into the Dark: A Large-scale Evaluation of Knowledge Graph Embedding Models Under a Unified Framework"
-  author: Ali
-  year: 2020
-  link: https://arxiv.org/abs/2006.13365
-  github: pykeen/benchmarking
-  models:
-    - ComplEx
-    - ConvE
-    - ConvKB
-    - DistMult
-    - ER-MLP
-    - HolE
-    - KG2E
-    - NTN
-    - ProjE
-    - RESCAL
-    - RotatE
-    - Structured Embedding
-    - SimplE
-    - TransE
-    - TransD
-    - TransH
-    - TransR
-    - Unstructured Model
-    - TuckER
-  datasets:
-    - FB15k
-    - FB15k-237
-    - WN18
-    - WN18RR
-    - YAGO3-10
-- arxiv: "1911.08776"
-  title: "JOINT EMBEDDING LEARNING OF EDUCATIONAL KNOWLEDGE GRAPHS"
-  author: Yao
-  year: 2019
-  datasets:
-    - CS-Wiki
-    - Java-KF
-    - DS-KF
-  models:
-    - TransE
-    - DistMult
-    - ComplEx
-    - SimplE
-    - TuckER
-    - RotatE
-- arxiv: "2003.08001"
-  title: "Realistic Re-evaluation of Knowledge Graph Completion Methods: An Experimental Study"
-  author: Akrami
-  year: 2020
-  models:
-    - TransE
-    - ComplEx
-    - TuckER
-    - DistMult
-    - ConvE
-    - RotatE
-    - AMIE
-  datasets:
-    - FB15k
-    - FB15k-237
-    - WN18
-    - WN18-RR
-    - YAGO3-10
-- arxiv: "1903.12287"
-  title: "PyTorch-BigGraph: A Large-scale Graph Embedding System"
-  author: Lerer
-  year: 2019
-  models:
-    - ComplEx
-    - TransE
-  datasets:
-    - FB15k
+  - Bilinear + TR
+  - ComplEx
+  - ConvE
+  - DistMult
+  - HAKE
+  - HypER
+  - LiteralE
+  - RotatE
+  - RW-LMLM
+  - SACN
+  - SimplE
+  title: A Survey on Knowledge Graph Embeddings for Link Prediction
+  year: 2021
