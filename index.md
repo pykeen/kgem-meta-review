@@ -1,12 +1,14 @@
 ---
 layout: home
 ---
-This page contains a list of knowledge graph embedding model (KGEM) surveys and
-benchmarking studies. It's generated with GitHub
-Pages from <a href="https://github.com/pykeen/kgem-meta-review"><img alt="GitHub logo"
+This page contains a list of surveys and benchmarking studies for knowledge graph embedding model (KGEMs). It's
+generated with GitHub Pages from <a href="https://github.com/pykeen/kgem-meta-review"><img alt="GitHub logo"
 src="img/github-icon.svg" width="16" height="16" /> pykeen/kgem-meta-review</a>. Content on this site
 is available under the [CC0 1.0 Universal](https://github.com/pykeen/kgem-meta-review/blob/main/LICENSE)
 license.
+
+We define a **survey** as a paper that describes several KGEMs and a **benchmark** as one that presents systematic
+application of several KGEMs.
 
 ## Contributing
 
