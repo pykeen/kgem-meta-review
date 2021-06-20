@@ -10,12 +10,25 @@ hits:
   - arxiv: "1903.11406"
     type: benchmark
     notes: also includes new model
+  - arxiv: "1910.12507"
+    type: survey
+  - arxiv: "2003.07743"
+    type: survey
+  - arxiv: "2104.05003"
+    type: benchmark
 meh:
   - arxiv: "1910.12507"
     comment: about models that handle literals
   - arxiv: "2003.07743"
     comment: on attributed and GNN stuff
 irrelevant:
+  - arxiv: "2104.06751"
+    reason: about learning rules
+  - arxiv: "1905.10674"
+  - arxiv: "1904.12052"
+    reason: about adversarial attacks on KG structure
+  - arxiv: "1707.07596"
+    reason: about adversarial training
   - arxiv: "2003.05730"
     reason: adversarial attack survey
   - arxiv: "2101.08358"
@@ -58,6 +71,16 @@ irrelevant:
     type: survey
     reason: it's about representation learning, not KGEMs
 novel:
+  - model: ChronoR
+    arxiv: "2103.10379"
+  - model: PoLo
+    arxiv: "2103.10367"
+  - arxiv: "2101.10070"
+    model: RelWalk
+  - arxiv: "1908.10611"
+    model: Bayes EMbedding
+  - arxiv: "1802.03638"
+    model: HornConcerto
   - arxiv: "1909.03794"
     model: TransW
   - model: TNTComplEx

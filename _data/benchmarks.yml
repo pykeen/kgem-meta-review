@@ -1,3 +1,23 @@
+- arxiv: '2105.12524'
+  author: Demir
+  datasets:
+  - WN18RR
+  - YAGO3-10
+  - FB15k-237
+  github: dice-group/OOV-In-Link-Prediction
+  link: https://arxiv.org/pdf/2105.12524
+  models:
+  - RESCAL
+  - DistMult
+  - ComplEx
+  - ConEx
+  - TuckER
+  - TransE
+  - ConvE
+  summary: identifies entities in test/validation sets in a few common datasets then
+    fixes and makes a comparison
+  title: Out-of-Vocabulary Entities in Link Prediction
+  year: 2021
 - author: Mohamed
   datasets:
   - YAGO3-10

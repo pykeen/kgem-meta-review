@@ -78,7 +78,7 @@
   - Unstructured Model
   - Structured Embedding
   - TransE
-  - TarnsH
+  - TransH
   - TransR
   - STransE
   - TranSparse
@@ -117,7 +117,7 @@
   - TATEC
   - RSTE
   - ANALOGY
-  - Dihedral
+  - DihEdral
   - RotatE
   - QuatE
   - TransE-Comp

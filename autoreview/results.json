@@ -1,100 +1,5 @@
 [
   {
-    "arxiv": "1707.07596",
-    "counts": {
-      "ComplEx": 3,
-      "DistMult": 3,
-      "HypE": 1,
-      "HypER": 1,
-      "LINE": 1,
-      "ProjE": 1,
-      "SE": 6,
-      "SimplE": 2,
-      "TransE": 2,
-      "TransH": 1,
-      "TransR": 1,
-      "TuckER": 1,
-      "WN18": 4
-    },
-    "published": "2017-07-24T15:00:55Z",
-    "summary": "In adversarial training, a set of models learn together by pursuing competing goals, usually defined on single data instances. However, in relational learning and other non-i.i.d domains, goals can also be defined over sets of instances. For example, a link predictor for the is-a relation needs to be consistent with the transitivity property: if is-a(x_1, x_2) and is-a(x_2, x_3) hold, is-a(x_1, x_3) needs to hold as well. Here we use such assumptions for deriving an inconsistency loss, measuring the degree to which the model violates the assumptions on an adversarially-generated set of examples. The training objective is defined as a minimax problem, where an adversary finds the most offending adversarial examples by maximising the inconsistency loss, and the model is trained by jointly minimising a supervised loss and the inconsistency loss on the adversarial examples. This yields the first method that can use function-free Horn clauses (as in Datalog) to regularise any neural link predictor, with complexity independent of the domain size. We show that for several link prediction models, the optimisation problem faced by the adversary has efficient closed-form solutions. Experiments on link prediction benchmarks indicate that given suitable prior knowledge, our method can significantly improve neural link predictors on all relevant metrics.",
-    "title": "Adversarial Sets for Regularising Neural Link Predictors"
-  },
-  {
-    "arxiv": "1802.03638",
-    "counts": {
-      "ANALOGY": 1,
-      "ComplEx": 1,
-      "DistMult": 1,
-      "FB15k": 1,
-      "HolE": 1,
-      "LINE": 1,
-      "SE": 1,
-      "TransE": 1,
-      "WN18": 1
-    },
-    "published": "2018-02-10T18:46:54Z",
-    "summary": "Graph representations of large knowledge bases may comprise billions of edges. Usually built upon human-generated ontologies, several knowledge bases do not feature declared ontological rules and are far from being complete. Current rule mining approaches rely on schemata or store the graph in-memory, which can be unfeasible for large graphs. In this paper, we introduce HornConcerto, an algorithm to discover Horn clauses in large graphs without the need of a schema. Using a standard fact-based confidence score, we can mine close Horn rules having an arbitrary body size. We show that our method can outperform existing approaches in terms of runtime and memory consumption and mine high-quality rules for the link prediction task, achieving state-of-the-art results on a widely-used benchmark. Moreover, we find that rules alone can perform inference significantly faster than embedding-based methods and achieve accuracies on link prediction comparable to resource-demanding approaches such as Markov Logic Networks.",
-    "title": "Beyond Markov Logic: Efficient Mining of Prediction Rules in Large Graphs"
-  },
-  {
-    "arxiv": "1904.12052",
-    "counts": {
-      "ComplEx": 2,
-      "DistMult": 2,
-      "FB15k": 2,
-      "RESCAL": 2,
-      "SE": 3,
-      "TransA": 2,
-      "TransD": 2,
-      "TransE": 2,
-      "TransF": 2,
-      "TransH": 2,
-      "TransR": 2,
-      "WN18": 2
-    },
-    "published": "2019-04-26T21:12:19Z",
-    "summary": "Knowledge graph embedding (KGE) is a technique for learning continuous embeddings for entities and relations in the knowledge graph.Due to its benefit to a variety of downstream tasks such as knowledge graph completion, question answering and recommendation, KGE has gained significant attention recently. Despite its effectiveness in a benign environment, KGE' robustness to adversarial attacks is not well-studied. Existing attack methods on graph data cannot be directly applied to attack the embeddings of knowledge graph due to its heterogeneity. To fill this gap, we propose a collection of data poisoning attack strategies, which can effectively manipulate the plausibility of arbitrary targeted facts in a knowledge graph by adding or deleting facts on the graph. The effectiveness and efficiency of the proposed attack strategies are verified by extensive evaluations on two widely-used benchmarks.",
-    "title": "Data Poisoning Attack against Knowledge Graph Embedding"
-  },
-  {
-    "arxiv": "1905.10674",
-    "counts": {
-      "ComplEx": 1,
-      "FB15k": 2,
-      "FB15k-237": 2,
-      "RESCAL": 1,
-      "SE": 4,
-      "TransD": 3,
-      "TransE": 2,
-      "node2vec": 1
-    },
-    "published": "2019-05-25T21:13:27Z",
-    "summary": "Learning high-quality node embeddings is a key building block for machine learning models that operate on graph data, such as social networks and recommender systems. However, existing graph embedding techniques are unable to cope with fairness constraints, e.g., ensuring that the learned representations do not correlate with certain attributes, such as age or gender. Here, we introduce an adversarial framework to enforce fairness constraints on graph embeddings. Our approach is compositional---meaning that it can flexibly accommodate different combinations of fairness constraints during inference. For instance, in the context of social recommendations, our framework would allow one user to request that their recommendations are invariant to both their age and gender, while also allowing another user to request invariance to just their age. Experiments on standard knowledge graph and recommender system benchmarks highlight the utility of our proposed framework.",
-    "title": "Compositional Fairness Constraints for Graph Embeddings"
-  },
-  {
-    "arxiv": "1908.10611",
-    "counts": {
-      "ConvE": 1,
-      "FB15k": 1,
-      "FB15k-237": 1,
-      "GraphSAGE": 1,
-      "LINE": 1,
-      "ProjE": 1,
-      "SE": 1,
-      "STransE": 1,
-      "TransD": 1,
-      "TransE": 1,
-      "TransH": 1,
-      "TransR": 1,
-      "node2vec": 1
-    },
-    "published": "2019-08-28T09:49:15Z",
-    "summary": "Low-dimensional embeddings of knowledge graphs and behavior graphs have proved remarkably powerful in varieties of tasks, from predicting unobserved edges between entities to content recommendation. The two types of graphs can contain distinct and complementary information for the same entities/nodes. However, previous works focus either on knowledge graph embedding or behavior graph embedding while few works consider both in a unified way. Here we present BEM , a Bayesian framework that incorporates the information from knowledge graphs and behavior graphs. To be more specific, BEM takes as prior the pre-trained embeddings from the knowledge graph, and integrates them with the pre-trained embeddings from the behavior graphs via a Bayesian generative model. BEM is able to mutually refine the embeddings from both sides while preserving their own topological structures. To show the superiority of our method, we conduct a range of experiments on three benchmark datasets: node classification, link prediction, triplet classification on two small datasets related to Freebase, and item recommendation on a large-scale e-commerce dataset.",
-    "title": "Bayes EMbedding (BEM): Refining Representation by Integrating Knowledge Graphs and Behavior-specific Networks"
-  },
-  {
     "arxiv": "1909.02930",
     "counts": {
       "ComplEx": 1,
@@ -121,6 +26,7 @@
       "FB15k": 5,
       "FB15k-237": 5,
       "GraphSAGE": 1,
+      "KBGAT": 2,
       "LINE": 1,
       "R-GCN": 6,
       "RotatE": 4,
@@ -142,6 +48,7 @@
       "ComplEx": 1,
       "DistMult": 1,
       "FB15k": 1,
+      "MTransE": 1,
       "NTN": 1,
       "QuatE": 1,
       "R-GCN": 1,
@@ -152,8 +59,8 @@
       "TransH": 1
     },
     "published": "2020-06-12T17:12:51Z",
-    "summary": "Graph Convolutional Networks (GCNs) have received increasing attention in recent machine learning. How to effectively leverage the rich structural information in complex graphs, such as knowledge graphs with heterogeneous types of entities and relations, is a primary open challenge in the field. Most GCN methods are either restricted to graphs with a homogeneous type of edges (e.g., citation links only), or focusing on representation learning for nodes only instead of jointly optimizing the embeddings of both nodes and edges for target-driven objectives. This paper addresses these limitations by proposing a novel framework, namely the GEneralized Multi-relational Graph Convolutional Networks (GEM-GCN), which combines the power of GCNs in graph-based belief propagation and the strengths of advanced knowledge-base embedding methods, and goes beyond. Our theoretical analysis shows that GEM-GCN offers an elegant unification of several well-known GCN methods as specific cases, with a new perspective of graph convolution. Experimental results on benchmark datasets show the advantageous performance of GEM-GCN over strong baseline methods in the tasks of knowledge graph alignment and entity classification.",
-    "title": "Generalized Multi-Relational Graph Convolution Network"
+    "summary": "Recently, a considerable literature has grown up around the theme of Graph Convolutional Network (GCN). How to effectively leverage the rich structural information in complex graphs, such as knowledge graphs with heterogeneous types of entities and relations, is a primary open challenge in the field. Most GCN methods are either restricted to graphs with a homogeneous type of edges (e.g., citation links only), or focusing on representation learning for nodes only instead of jointly propagating and updating the embeddings of both nodes and edges for target-driven objectives. This paper addresses these limitations by proposing a novel framework, namely the Knowledge Embedding based Graph Convolutional Network (KE-GCN), which combines the power of GCNs in graph-based belief propagation and the strengths of advanced knowledge embedding (a.k.a. knowledge graph embedding) methods, and goes beyond. Our theoretical analysis shows that KE-GCN offers an elegant unification of several well-known GCN methods as specific cases, with a new perspective of graph convolution. Experimental results on benchmark datasets show the advantageous performance of KE-GCN over strong baseline methods in the tasks of knowledge graph alignment and entity classification.",
+    "title": "Knowledge Embedding Based Graph Convolutional Network"
   },
   {
     "arxiv": "2007.11164",
@@ -170,7 +77,8 @@
       "TransF": 1,
       "TransH": 1,
       "TransR": 1,
-      "YAGO3": 1
+      "YAGO3": 1,
+      "puTransE": 1
     },
     "published": "2020-07-22T02:20:25Z",
     "summary": "Knowledge graph embedding, which aims to learn the low-dimensional representations of entities and relationships, has attracted considerable research efforts recently. However, most knowledge graph embedding methods focus on the structural relationships in fixed triples while ignoring the temporal information. Currently, existing time-aware graph embedding methods only focus on the factual plausibility, while ignoring the temporal smoothness which models the interactions between a fact and its contexts, and thus can capture fine-granularity temporal relationships. This leads to the limited performance of embedding related applications. To solve this problem, this paper presents a Robustly Time-aware Graph Embedding (RTGE) method by incorporating temporal smoothness. Two major innovations of our paper are presented here. At first, RTGE integrates a measure of temporal smoothness in the learning process of the time-aware graph embedding. Via the proposed additional smoothing factor, RTGE can preserve both structural information and evolutionary patterns of a given graph. Secondly, RTGE provides a general task-oriented negative sampling strategy associated with temporally-aware information, which further improves the adaptive ability of the proposed algorithm and plays an essential role in obtaining superior performance in various tasks. Extensive experiments conducted on multiple benchmark tasks show that RTGE can increase performance in entity/relationship/temporal scoping prediction tasks.",
@@ -258,7 +166,8 @@
       "TransH": 1,
       "TuckER": 1,
       "WN18": 1,
-      "WN18RR": 1
+      "WN18RR": 1,
+      "m-TransH": 1
     },
     "published": "2020-09-22T22:38:54Z",
     "summary": "Hyper-relational knowledge graphs (KGs) (e.g., Wikidata) enable associating additional key-value pairs along with the main triple to disambiguate, or restrict the validity of a fact. In this work, we propose a message passing based graph encoder - StarE capable of modeling such hyper-relational KGs. Unlike existing approaches, StarE can encode an arbitrary number of additional information (qualifiers) along with the main triple while keeping the semantic roles of qualifiers and triples intact. We also demonstrate that existing benchmarks for evaluating link prediction (LP) performance on hyper-relational KGs suffer from fundamental flaws and thus develop a new Wikidata-based dataset - WD50K. Our experiments demonstrate that StarE based LP model outperforms existing approaches across multiple benchmarks. We also confirm that leveraging qualifiers is vital for link prediction with gains up to 25 MRR points compared to triple-based representations.",
@@ -270,7 +179,8 @@
       "ConvE": 1,
       "FB15k": 1,
       "FB15k-237": 1,
-      "SE": 3
+      "SE": 3,
+      "SSP": 1
     },
     "published": "2020-11-10T18:36:33Z",
     "summary": "The existing literature on knowledge graph completion mostly focuses on the link prediction task. However, knowledge graphs have an additional incompleteness problem: their nodes possess numerical attributes, whose values are often missing. Our approach, denoted as MrAP, imputes the values of missing attributes by propagating information across the multi-relational structure of a knowledge graph. It employs regression functions for predicting one node attribute from another depending on the relationship between the nodes and the type of the attributes. The propagation mechanism operates iteratively in a message passing scheme that collects the predictions at every iteration and updates the value of the node attributes. Experiments over two benchmark datasets show the effectiveness of our approach.",
@@ -326,76 +236,47 @@
     "title": "Generalized Relation Learning with Semantic Correlation Awareness for Link Prediction"
   },
   {
-    "arxiv": "2101.10070",
+    "arxiv": "2104.08273",
     "counts": {
-      "ComplEx": 1,
-      "ConvE": 1,
-      "DistMult": 1,
-      "FB15k": 1,
-      "FB15k-237": 1,
-      "NTN": 1,
-      "RESCAL": 1,
-      "RotatE": 1,
-      "SE": 1,
-      "TransD": 1,
-      "TransE": 1,
-      "TransG": 1,
-      "TransR": 1,
-      "WN18": 1,
-      "WN18RR": 1,
-      "node2vec": 1
+      "ComplEx": 2,
+      "DistMult": 2,
+      "SE": 2,
+      "TransE": 2,
+      "TransH": 2,
+      "YAGO3": 2
     },
-    "published": "2021-01-25T13:31:29Z",
-    "summary": "Embedding entities and relations of a knowledge graph in a low-dimensional space has shown impressive performance in predicting missing links between entities. Although progresses have been achieved, existing methods are heuristically motivated and theoretical understanding of such embeddings is comparatively underdeveloped. This paper extends the random walk model (Arora et al., 2016a) of word embeddings to Knowledge Graph Embeddings (KGEs) to derive a scoring function that evaluates the strength of a relation R between two entities h (head) and t (tail). Moreover, we show that marginal loss minimisation, a popular objective used in much prior work in KGE, follows naturally from the log-likelihood ratio maximisation under the probabilities estimated from the KGEs according to our theoretical relationship. We propose a learning objective motivated by the theoretical analysis to learn KGEs from a given knowledge graph. Using the derived objective, accurate KGEs are learnt from FB15K237 and WN18RR benchmark datasets, providing empirical evidence in support of the theory.",
-    "title": "RelWalk A Latent Variable Model Approach to Knowledge Graph Embedding"
+    "published": "2021-04-16T17:56:48Z",
+    "summary": "Knowledge graphs have become increasingly popular supplemental information because they represented structural relations between entities. Knowledge graph embedding methods (KGE) are used for various downstream tasks, e.g., knowledge graph completion, including triple classification, link prediction. However, the knowledge graph also includes much sensitive information in the training set, which is very vulnerable to privacy attacks. In this paper, we conduct such one attack, i.e., membership inference attack, on four standard KGE methods to explore the privacy vulnerabilities of knowledge graphs. Our experimental results on four benchmark knowledge graph datasets show that our privacy attacks can reveal the membership information leakage of KGE methods.",
+    "title": "Membership Inference Attacks on Knowledge Graphs"
   },
   {
-    "arxiv": "2103.10367",
+    "arxiv": "2105.12524",
     "counts": {
-      "AnyBURL": 1,
-      "CompGCN": 1,
-      "ComplEx": 1,
-      "ConvE": 1,
-      "DistMult": 1,
-      "FB15k": 1,
-      "FB15k-237": 1,
-      "FedE": 1,
-      "GeomE": 1,
-      "Hetionet": 1,
+      "ComplEx": 5,
+      "ConEx": 3,
+      "ConvE": 4,
+      "DistMult": 4,
+      "FB15k": 4,
+      "FB15k-237": 4,
+      "HolE": 1,
       "HypE": 1,
       "HypER": 1,
-      "ProjE": 1,
-      "R-GCN": 1,
-      "RESCAL": 1,
-      "SE": 1,
-      "TransE": 1,
-      "WN18": 1,
-      "WN18RR": 1
+      "NAM": 2,
+      "ProjE": 2,
+      "QuatE": 3,
+      "RESCAL": 4,
+      "RotatE": 2,
+      "SE": 4,
+      "SimplE": 2,
+      "TransE": 3,
+      "TransF": 2,
+      "TuckER": 4,
+      "WN18": 4,
+      "WN18RR": 4,
+      "YAGO3": 4
     },
-    "published": "2021-03-18T16:46:11Z",
-    "summary": "Biomedical knowledge graphs permit an integrative computational approach to reasoning about biological systems. The nature of biological data leads to a graph structure that differs from those typically encountered in benchmarking datasets. To understand the implications this may have on the performance of reasoning algorithms, we conduct an empirical study based on the real-world task of drug repurposing. We formulate this task as a link prediction problem where both compounds and diseases correspond to entities in a knowledge graph. To overcome apparent weaknesses of existing algorithms, we propose a new method, PoLo, that combines policy-guided walks based on reinforcement learning with logical rules. These rules are integrated into the algorithm by using a novel reward function. We apply our method to Hetionet, which integrates biomedical information from 29 prominent bioinformatics databases. Our experiments show that our approach outperforms several state-of-the-art methods for link prediction while providing interpretability.",
-    "title": "Neural Multi-Hop Reasoning With Logical Rules on Biomedical Knowledge Graphs"
-  },
-  {
-    "arxiv": "2103.10379",
-    "counts": {
-      "ComplEx": 1,
-      "DistMult": 1,
-      "FB15k": 1,
-      "LINE": 1,
-      "NAM": 1,
-      "QuatE": 1,
-      "RotatE": 1,
-      "SE": 1,
-      "SimplE": 1,
-      "TNTComplEx": 1,
-      "TransD": 1,
-      "TransE": 1,
-      "TransH": 1,
-      "TransR": 1
-    },
-    "published": "2021-03-18T17:08:33Z",
-    "summary": "Despite the importance and abundance of temporal knowledge graphs, most of the current research has been focused on reasoning on static graphs. In this paper, we study the challenging problem of inference over temporal knowledge graphs. In particular, the task of temporal link prediction. In general, this is a difficult task due to data non-stationarity, data heterogeneity, and its complex temporal dependencies. We propose Chronological Rotation embedding (ChronoR), a novel model for learning representations for entities, relations, and time. Learning dense representations is frequently used as an efficient and versatile method to perform reasoning on knowledge graphs. The proposed model learns a k-dimensional rotation transformation parametrized by relation and time, such that after each fact's head entity is transformed using the rotation, it falls near its corresponding tail entity. By using high dimensional rotation as its transformation operator, ChronoR captures rich interaction between the temporal and multi-relational characteristics of a Temporal Knowledge Graph. Experimentally, we show that ChronoR is able to outperform many of the state-of-the-art methods on the benchmark datasets for temporal knowledge graph link prediction.",
-    "title": "ChronoR: Rotation Based Temporal Knowledge Graph Embedding"
+    "published": "2021-05-26T12:58:18Z",
+    "summary": "Knowledge graph embedding techniques are key to making knowledge graphs amenable to the plethora of machine learning approaches based on vector representations. Link prediction is often used as a proxy to evaluate the quality of these embeddings. Given that the creation of benchmarks for link prediction is a time-consuming endeavor, most work on the subject matter uses only a few benchmarks. As benchmarks are crucial for the fair comparison of algorithms, ensuring their quality is tantamount to providing a solid ground for developing better solutions to link prediction and ipso facto embedding knowledge graphs. First studies of benchmarks pointed to limitations pertaining to information leaking from the development to the test fragments of some benchmark datasets. We spotted a further common limitation of three of the benchmarks commonly used for evaluating link prediction approaches: out-of-vocabulary entities in the test and validation sets. We provide an implementation of an approach for spotting and removing such entities and provide corrected versions of the datasets WN18RR, FB15K-237, and YAGO3-10. Our experiments on the corrected versions of WN18RR, FB15K-237, and YAGO3-10 suggest that the measured performance of state-of-the-art approaches is altered significantly with p-values <1%, <1.4%, and <1%, respectively. Overall, state-of-the-art approaches gain on average absolute $3.29 \\pm 0.24\\%$ in all metrics on WN18RR. This means that some of the conclusions achieved in previous works might need to be revisited. We provide an open-source implementation of our experiments and corrected datasets at at https://github.com/dice-group/OOV-In-Link-Prediction.",
+    "title": "Out-of-Vocabulary Entities in Link Prediction"
   }
 ]
