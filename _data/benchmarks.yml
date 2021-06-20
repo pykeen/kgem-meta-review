@@ -14,8 +14,9 @@
   - TuckER
   - TransE
   - ConvE
-  summary: identifies entities in test/validation sets in a few common datasets then
-    fixes and makes a comparison
+  comment: Identifies entities appearning in the testing/validation splits in three common benchmark
+    datasets, provides an algorithm for fixing the splits, then presents an evaluation on the fixed
+    datasets.
   title: Out-of-Vocabulary Entities in Link Prediction
   year: 2021
 - author: Mohamed
