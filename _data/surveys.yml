@@ -1,3 +1,19 @@
+- arxiv: '2107.07842'
+  author: Choudhary
+  models:
+  - TransE
+  - TransH
+  - TransR
+  - RotatE
+  - HakE
+  - RESCAL
+  - TATEC
+  - DistMult
+  - HolE
+  - ComplEx
+  - ANALOGY
+  title: A Survey of Knowledge Graph Embedding and Their Applications
+  year: 2021
 - arxiv: '2101.06569'
   author: Chen
   models:
