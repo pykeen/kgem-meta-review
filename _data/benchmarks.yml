@@ -1,5 +1,8 @@
 - arxiv: '2105.12524'
   author: Demir
+  comment: Identifies entities appearning in the testing/validation splits in three
+    common benchmark datasets, provides an algorithm for fixing the splits, then presents
+    an evaluation on the fixed datasets.
   datasets:
   - WN18RR
   - YAGO3-10
@@ -14,9 +17,6 @@
   - TuckER
   - TransE
   - ConvE
-  comment: Identifies entities appearning in the testing/validation splits in three common benchmark
-    datasets, provides an algorithm for fixing the splits, then presents an evaluation on the fixed
-    datasets.
   title: Out-of-Vocabulary Entities in Link Prediction
   year: 2021
 - author: Mohamed
@@ -52,6 +52,22 @@
   - SimplE
   title: A Survey on Knowledge Graph Embeddings for Link Prediction
   year: 2021
+- arxiv: '1911.03903'
+  author: Sun
+  datasets:
+  - WN18RR
+  - FB15k-237
+  link: https://arxiv.org/pdf/1911.03903
+  models:
+  - ConvE
+  - RotatE
+  - TuckER
+  - ConvKB
+  - CapsE
+  - KBAT
+  - TransGate
+  title: A Re-evaluation of Knowledge Graph Completion Methods
+  year: 2020
 - author: Ruffinelli
   datasets:
   - FB15k-237
